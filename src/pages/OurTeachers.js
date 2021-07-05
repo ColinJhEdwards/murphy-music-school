@@ -1,15 +1,39 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { Teachers } from "../data/teacherData";
+import TeacherCard from "../components/TeacherCard";
 
 const OurTeachers = () => {
+  const [teachers, setTeachers] = useState(Teachers);
   return (
-    <section className="ourTeachers">
+    <TeacherSection className="ourTeachers">
       <div>
-        <h2>OurTeachers</h2>
+        <h1>Our Teachers</h1>
       </div>
-    </section>
+      <div>
+        {teachers.map((teach) => (
+          <TeacherCard
+            name={teach.name}
+            description={teach.description}
+            image={teach.image}
+            instrument={teach.instrument}
+            id={teach.id}
+            key={teach.id}
+          />
+        ))}
+      </div>
+    </TeacherSection>
   );
 };
 
+const TeacherSection = styled(motion.section)`
+  min-height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+`;
 export default OurTeachers;
