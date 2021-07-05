@@ -5,13 +5,32 @@ import AboutUs from "./pages/AboutUs";
 import Courses from "./pages/Courses";
 import OurTeachers from "./pages/OurTeachers";
 import ContactUs from "./pages/ContactUs";
+import GlobalStyle from "./components/GlobalStyle";
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <h2>hello</h2>
-      </div>
+      <GlobalStyle />
+      <Switch>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+        <Route path="/aboutus" exact>
+          <AboutUs />
+        </Route>
+        <Route path="/courses">
+          <Courses />
+        </Route>
+        <Route path="/courses/:id">
+          <Home />
+        </Route>
+        <Route path="ourteachers">
+          <OurTeachers />
+        </Route>
+        <Route path="/contactus">
+          <ContactUs />
+        </Route>
+      </Switch>
     </div>
   );
 }
