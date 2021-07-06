@@ -39,6 +39,19 @@ const Card = styled(motion.div)`
       margin: 1rem 1rem;
     }
   }
+  @media (max-width: 414px) {
+    flex-direction: column;
+    text-align: center;
+    img {
+      margin-top: 1rem;
+    }
+    .info {
+      h2,
+      p {
+        align-self: center;
+      }
+    }
+  }
 `;
 
 export default TeacherCard;

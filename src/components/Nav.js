@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NavStuff = () => {
   return (
     <StyledNav>
-      <Navbar bg="none" expand="sm">
+      <Navbar bg="none" expand="sm" className="noov">
         <Navbar.Brand href="#home">Murphy's Music School</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -34,8 +34,11 @@ const NavStuff = () => {
 };
 
 const StyledNav = styled.div`
-  width: 95%;
-  margin: auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  .noov {
+    width: 95%;
+    margin: auto;
+  }
 `;
 
 export default NavStuff;
