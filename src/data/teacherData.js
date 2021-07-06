@@ -3,6 +3,9 @@ import nick from "../images/teachers/nick.jpg";
 import colin from "../images/teachers/colin.jpg";
 import linguini from "../images/teachers/linguini.jpg";
 import michelle from "../images/teachers/michelle.jpg";
+import shane from "../images/teachers/shane.jpg";
+import luca from "../images/teachers/luca.jpg";
+import olivia from "../images/teachers/olivia.jpg";
 
 export const Teachers = () => {
   return [
@@ -45,6 +48,27 @@ export const Teachers = () => {
         "Michelle is an award-winning singer, composer, improviser, and record producer. She has composed, recorded, and produced more than 500 compositions and has released dozens of solo and collaborative recordings. Being a self-taught musician has helped her develop a creative approach to teaching her students, creating the opprotunity for even the quietest of students to show their pipes. Michelle is an essential member of Murphy's Music School.",
       image: michelle,
       instrument: "Voice",
+    },
+    {
+      id: 6,
+      name: "Shane Morrison",
+      description: "",
+      image: shane,
+      instrument: "Tuba, Trumpet, Trombone, French Horn",
+    },
+    {
+      id: 7,
+      name: "Luca Brambilla",
+      description: "",
+      image: luca,
+      instrument: "Orchestra, Band, Choir",
+    },
+    {
+      id: 8,
+      name: "Olivia Szekely",
+      description: "",
+      image: olivia,
+      instrument: "Orchestra, Band, Choir",
     },
   ];
 };
