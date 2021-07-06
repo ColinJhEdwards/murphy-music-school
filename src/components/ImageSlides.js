@@ -12,12 +12,12 @@ import drum from "../images/display/drum.jpg";
 const ImageSlides = () => {
   return (
     <StyledCar>
-      <Carousel fade interval="6000">
+      <Carousel fade interval="6000" pause="false">
         <Carousel.Item>
           <img className="img d-block w-100" src={teach} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="img d-block w-100" src={sing} alt="Second slide" />
+          <img className="img d-block w-100" src={play} alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="img d-block w-100" src={drum} alt="Third slide" />
@@ -26,7 +26,7 @@ const ImageSlides = () => {
           <img className="img d-block w-100" src={piano} alt="Fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="img d-block w-100" src={play} alt="fifth slide" />
+          <img className="img d-block w-100" src={sing} alt="fifth slide" />
         </Carousel.Item>
       </Carousel>
     </StyledCar>

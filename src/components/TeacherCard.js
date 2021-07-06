@@ -36,7 +36,7 @@ const Card = styled(motion.div)`
     h2,
     p {
       align-self: flex-start;
-      margin: 0rem 1rem;
+      margin: 1rem 1rem;
     }
   }
 `;

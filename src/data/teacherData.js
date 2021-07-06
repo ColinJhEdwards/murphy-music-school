@@ -15,7 +15,7 @@ export const Teachers = () => {
       description:
         "Kylie, the founder of Murphy's Music School, is a lover of music and snails. After discovering a passion for music at a young age, Kylie dove into the world of musicianship head first and learned how to play multiple instruments including the piano, bassoon, guitar, ukulele, saxaphone, and anything else she could get her hands on. Later in life Kylie eventually put together her first band 'Tegratree' where she played hundreds of succesful shows. After living the exciting lifestyle of a rockstar Kylie decided to settle down and join the Seattle Symphony where she expressed her true passion, the bassoon. In her free time Kylie runs her own music school and consistantly encourages her community to experience the joys of music.",
       image: kylie,
-      instrument: "Piano, Bassoon, Guitar, Ukulele, Saxaphone",
+      instrument: "Piano, Bassoon, Guitar, Ukulele, Saxaphone, Voice",
     },
     {
       id: 2,
@@ -59,16 +59,18 @@ export const Teachers = () => {
     {
       id: 7,
       name: "Luca Brambilla",
-      description: "",
+      description:
+        "No music school is complete without a conductor as passionate as Luca. He obtained his Doctorate in Orchestral Conducting at the age of 15 from Berklee's School of Music and was recognized early on as a prodigy. Luca uses the knowledge obtained from his educational experience and applies it to conducting bands and choirs alongside orchestras. Thanks to Luca, Murphy's Music School is able to offer a wide variety of courses, creating the most fantastic of interactions between students and staff.",
       image: luca,
       instrument: "Orchestra, Band, Choir",
     },
     {
       id: 8,
       name: "Olivia Szekely",
-      description: "",
+      description:
+        "While she may be the youngest of our teachers, Olivia's passion for music reflects in her teaching methods. Olivia began her music journey at a young age, and soon after discovered an unhealthy obsession with the well know artist Taylor Swift. It was this obsession that pushed Olivia to master the guitar through countless hours of practice and gigs throughout her neighborhood. She continues to hone her craft while teaching at Murphy's and holds on to her dream of one day performing alongside Taylor Swift. Olivia consistently brings a positive attitude and makes for a great teacher for beginner students.",
       image: olivia,
-      instrument: "Orchestra, Band, Choir",
+      instrument: "Guitar, Voice",
     },
   ];
 };
