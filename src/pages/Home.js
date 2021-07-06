@@ -4,12 +4,16 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-    <section className="home">
+    <StyledHome className="home">
       <div>
         <h2>Home</h2>
       </div>
-    </section>
+    </StyledHome>
   );
 };
+
+const StyledHome = styled(motion.section)`
+  min-height: 95vh;
+`;
 
 export default Home;

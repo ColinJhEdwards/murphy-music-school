@@ -6,11 +6,13 @@ import Courses from "./pages/Courses";
 import OurTeachers from "./pages/OurTeachers";
 import ContactUs from "./pages/ContactUs";
 import GlobalStyle from "./components/GlobalStyle";
+import NavStuff from "./components/Nav";
 
 function App() {
   return (
     <div className="App">
       <GlobalStyle />
+      <NavStuff />
       <Switch>
         <Route path="/" exact>
           <Home />

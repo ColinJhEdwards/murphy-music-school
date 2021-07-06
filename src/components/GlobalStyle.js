@@ -14,6 +14,15 @@ body{
     
 }
 
+a{
+    color: black;
+    text-decoration: none;
+    transition: all ease 0.5s;
+    &:hover{
+        color: blue;
+    }
+}
+
 
 `;
 
