@@ -1,12 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import ImageSlides from "../components/ImageSlides";
 
 const Home = () => {
   return (
     <StyledHome className="home">
       <div>
-        <h2>Home</h2>
+        <ImageSlides />
       </div>
     </StyledHome>
   );
