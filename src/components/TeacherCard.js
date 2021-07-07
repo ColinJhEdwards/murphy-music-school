@@ -24,7 +24,7 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 345,
+    maxWidth: 375,
   },
   media: {
     height: 0,
@@ -113,7 +113,9 @@ const TeacherCard = ({
   );
 };
 
-const StyledCard = styled(motion.div)``;
+const StyledCard = styled(motion.div)`
+  margin: 1rem 0rem;
+`;
 
 // const Card = styled(motion.div)`
 //   display: flex;

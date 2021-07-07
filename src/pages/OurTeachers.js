@@ -35,7 +35,7 @@ const TeacherSection = styled(motion.section)`
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 80%;
+  width: 90%;
   margin: auto;
   .teachList {
     display: flex;

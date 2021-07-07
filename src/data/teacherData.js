@@ -13,7 +13,7 @@ export const Teachers = () => {
       id: 1,
       name: "Kylie Murphy",
       description1:
-        "Kylie, the founder of Murphy's Music School, is a lover of music and snails.",
+        "Kylie, the founder of Murphy's Music School, is a lover of music and snails. Her love for music and the people around her are the life force of Murphy's.",
       description2:
         " After discovering a passion for music at a young age, Kylie dove into the world of musicianship head first and learned how to play multiple instruments including the piano, bassoon, guitar, ukulele, saxaphone, and anything else she could get her hands on. Later in life Kylie eventually put together her first band 'Tegratree' where she played hundreds of succesful shows. After living the exciting lifestyle of a rockstar Kylie decided to settle down and join the Seattle Symphony where she expressed her true passion, the bassoon. In her free time Kylie runs her own music school and consistantly encourages her community to experience the joys of music.",
       image: kylie,
@@ -24,7 +24,7 @@ export const Teachers = () => {
       id: 2,
       name: "Nick Nordstrom",
       description1:
-        "Nick, a retired lumberjack, found his passion for the bass at a late age. However this did not prevent him from putting the entirety of his effort into mastering the instrument.",
+        "Nick, a retired lumberjack, found his passion for the bass at a late age but put the entirety of his effort into mastering the instrument.",
       description2:
         "After two years of practicing Nick explained to his friends and family that he will be embarking on a retreat into nature for the next five years where he will do nothing but practice bass. Upon his return Nick was capable of what most bass players would claim to be impossible and could playing the grooviest of base lines. He was later recruited into the famous band Tegratree and now teaches alongside his fellow band members.",
       image: nick,
@@ -90,7 +90,7 @@ export const Teachers = () => {
       id: 8,
       name: "Olivia Szekely",
       description1:
-        "While she may be the youngest of our teachers, Olivia's passion for music reflects in her teaching methods.",
+        "While she may be the youngest of our teachers, Olivia's passion for music is inspiring and at times, scary.",
       description2:
         "Olivia began her music journey at a young age, and soon after discovered an unhealthy obsession with the well know artist Taylor Swift. It was this obsession that pushed Olivia to master the guitar through countless hours of practice and gigs throughout her neighborhood. She continues to hone her craft while teaching at Murphy's and holds on to her dream of one day performing alongside Taylor Swift. Olivia consistently brings a positive attitude and makes for a great teacher for beginner students.",
       image: olivia,
