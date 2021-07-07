@@ -12,21 +12,41 @@ import drum from "../images/display/drum.jpg";
 const ImageSlides = () => {
   return (
     <StyledCar>
-      <Carousel fade interval="6000" pause="false">
+      <Carousel fade interval="5000" pause="false">
         <Carousel.Item>
           <img className="img d-block w-100" src={teach} alt="First slide" />
+          <Carousel.Caption>
+            <h3>Murphy's Music School</h3>
+            <p>We Make Your Dreams A Reaility</p>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="img d-block w-100" src={play} alt="Second slide" />
+          <Carousel.Caption>
+            <h3>Murphy's Music School</h3>
+            <p>We Make Your Dreams A Reaility</p>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="img d-block w-100" src={drum} alt="Third slide" />
+          <Carousel.Caption>
+            <h3>Murphy's Music School</h3>
+            <p>We Make Your Dreams A Reaility</p>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="img d-block w-100" src={piano} alt="Fourth slide" />
+          <Carousel.Caption>
+            <h3>Murphy's Music School</h3>
+            <p>We Make Your Dreams A Reaility</p>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="img d-block w-100" src={sing} alt="fifth slide" />
+          <Carousel.Caption>
+            <h3>Murphy's Music School</h3>
+            <p>We Make Your Dreams A Reaility</p>
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </StyledCar>
@@ -35,6 +55,10 @@ const ImageSlides = () => {
 
 const StyledCar = styled(motion.div)`
   margin: auto;
+  h3,
+  p {
+    text-shadow: 2px 2px black;
+  }
   .img {
     height: 90vh;
     object-fit: cover;

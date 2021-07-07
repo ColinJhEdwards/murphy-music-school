@@ -24,7 +24,7 @@ const Card = styled(motion.div)`
   margin: 2rem 0rem;
   width: 100%;
   img {
-    width: 200px;
+    width: 230px;
     height: 100%;
     border-radius: 10px;
   }
