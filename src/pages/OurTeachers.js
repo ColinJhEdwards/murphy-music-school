@@ -21,6 +21,7 @@ const OurTeachers = () => {
             instrument={teach.instrument}
             id={teach.id}
             key={teach.id}
+            hobbies={teach.hobbies}
           />
         ))}
       </div>

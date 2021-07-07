@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 0,
-    paddingTop: "56.25%", // 16:9
+    paddingTop: "100%", // 16:9
   },
   expand: {
     transform: "rotate(0deg)",
@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     transform: "rotate(180deg)",
   },
   avatar: {
-    backgroundColor: green,
+    backgroundColor: green[500],
   },
 }));
 
@@ -52,6 +52,7 @@ const TeacherCard = ({
   description2,
   instrument,
   id,
+  hobbies,
 }) => {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
@@ -75,7 +76,7 @@ const TeacherCard = ({
             </IconButton>
           }
           title={name}
-          subheader={`Teaches: ${instrument}`}
+          subheader={`Hobbies: ${hobbies}`}
         />
         <CardMedia
           className={`${classes.media} img`}
@@ -83,6 +84,9 @@ const TeacherCard = ({
           title={name}
         />
         <CardContent>
+          <CardContent>
+            <Typography paragraph>{`Teaches: ${instrument}`}</Typography>
+          </CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
             {description1}
           </Typography>
