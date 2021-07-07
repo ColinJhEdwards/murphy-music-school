@@ -15,7 +15,8 @@ const OurTeachers = () => {
         {teachers.map((teach) => (
           <TeacherCard
             name={teach.name}
-            description={teach.description}
+            description1={teach.description1}
+            description2={teach.description2}
             image={teach.image}
             instrument={teach.instrument}
             id={teach.id}
