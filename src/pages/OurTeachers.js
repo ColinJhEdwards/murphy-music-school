@@ -11,7 +11,7 @@ const OurTeachers = () => {
       <div>
         <h1>Our Teachers</h1>
       </div>
-      <div>
+      <div className="teachList">
         {teachers.map((teach) => (
           <TeacherCard
             name={teach.name}
@@ -36,5 +36,11 @@ const TeacherSection = styled(motion.section)`
   flex-direction: column;
   width: 80%;
   margin: auto;
+  .teachList {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 `;
 export default OurTeachers;
