@@ -24,20 +24,20 @@ export const Teachers = () => {
       id: 2,
       name: "Nick Nordstrom",
       description1:
-        "Nick, a retired lumberjack, found his passion for the bass at a late age but put the entirety of his effort into mastering the instrument.",
+        "Nick, a retired lumberjack, found his passion for the bass at a late age but put the entirety of his effort into mastering the instrument. His bass is even made of wood as an homage to his past life.",
       description2:
         "After two years of practicing Nick explained to his friends and family that he will be embarking on a retreat into nature for the next five years where he will do nothing but practice bass. Upon his return Nick was capable of what most bass players would claim to be impossible and could playing the grooviest of base lines. He was later recruited into the famous band Tegratree and now teaches alongside his fellow band members.",
       image: nick,
-      instrument: "Bass",
+      instrument: "bass",
       hobbies: "Motorcycles, Videography",
     },
     {
       id: 3,
       name: "Colin Edwards",
       description1:
-        "Colin originally began his musical journey on the piano and later discovered a passion for the guitar.",
+        "From a young age Colin was obsessed with music and would sneak his way into all of Seattle's jazz clubs. Eventually most clubs gave him a reserved seat, regardless of his age. ",
       description2:
-        "Colin then devoted his life to mastering the ins and outs of the instrument, eventually obtaining the skillset to play alongside famous musicians and joining them on their tours. These muscians included the likes of Jacob Collier, Hozier, Gregory Alon Isakov, and his personal favorite, John Mayer. Colin then joined the band Tegratree and after a extremely successful career, joined his fellow band mates in teaching his community about the joys of music.",
+        "Colin would watch from a distance in awe at what the guitar players on stage were capable of and would always ask for their guidance. Once he acquired his first guitar, he devoted his life to mastering the ins and outs of the instrument, eventually obtaining the skillset to play alongside famous musicians and joining them on their tours. These muscians included the likes of Jacob Collier, Hozier, Gregory Alon Isakov, and his personal favorite, John Mayer. Colin then joined the band Tegratree and after an extremely successful career, joined his fellow band mates in teaching their community about the joys of music. His lessons put a large emphasis on the theory behind improvisation and encouraging his students to express themselves through their instrument.",
       image: colin,
       instrument: "Guitar",
       hobbies: "Reading, Running",
@@ -46,7 +46,7 @@ export const Teachers = () => {
       id: 4,
       name: "Linguini",
       description1:
-        "Linguini is simply Linguini, the man has no last name that we know of and is an enigma that appeared out of no where, but he's a master of the drums.",
+        "Linguini is simply Linguini, the man has no last name that we know of and is an enigma that appeared out of no where, but he's a master of the drums and teaching those around him.",
       description2:
         "He is versed in almost every genre of drumming including rock, blues, funk, and jazz. His teaching style is both exciting and laid back, he chooses his words wisely and speaks seldom, putting most of his effort into encouraging his students to simply play, making for an excellent teacher. During his free time Linguini competes in street drum battles and knits.",
       image: linguini,
@@ -79,9 +79,9 @@ export const Teachers = () => {
       id: 7,
       name: "Luca Brambilla",
       description1:
-        "No music school is complete without a conductor as passionate as Luca. He obtained his Doctorate in Orchestral Conducting at the age of 15 from Berklee's School of Music and was recognized early on as a prodigy.",
+        "No music school is complete without a conductor as passionate and diverse as Luca. His group oriented lessons create stunning performances from our students.",
       description2:
-        "Luca uses the knowledge obtained from his educational experience and applies it to conducting bands and choirs alongside orchestras. Thanks to Luca, Murphy's Music School is able to offer a wide variety of courses, creating the most fantastic of interactions between students and staff.",
+        "He obtained his Doctorate in Orchestral Conducting at the age of 15 from Berklee's School of Music and was recognized early on as a prodigy. Luca uses the knowledge obtained from his educational experience and applies it to conducting bands and choirs alongside orchestras. Thanks to Luca, Murphy's Music School is able to offer a wide variety of courses, creating the most fantastic of interactions between students and staff.",
       image: luca,
       instrument: "Orchestra, Band, Choir",
       hobbies: "Juggling, Knot Tying",

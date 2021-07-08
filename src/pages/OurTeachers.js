@@ -3,11 +3,18 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Teachers } from "../data/teacherData";
 import TeacherCard from "../components/TeacherCard";
+import { pageAnimation } from "../animations";
 
 const OurTeachers = () => {
   const [teachers, setTeachers] = useState(Teachers);
   return (
-    <TeacherSection className="ourTeachers">
+    <TeacherSection
+      className="ourTeachers"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <div>
         <h1>Our Teachers</h1>
       </div>
@@ -37,6 +44,9 @@ const TeacherSection = styled(motion.section)`
   flex-direction: column;
   width: 90%;
   margin: auto;
+  h1 {
+    margin-top: 2rem;
+  }
   .teachList {
     display: flex;
     align-items: center;

@@ -7,32 +7,36 @@ import OurTeachers from "./pages/OurTeachers";
 import ContactUs from "./pages/ContactUs";
 import GlobalStyle from "./components/GlobalStyle";
 import NavStuff from "./components/Nav";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
       <GlobalStyle />
       <NavStuff />
-      <Switch>
-        <Route path="/" exact>
-          <Home />
-        </Route>
-        <Route path="/aboutus" exact>
-          <AboutUs />
-        </Route>
-        <Route path="/courses">
-          <Courses />
-        </Route>
-        <Route path="/courses/:id">
-          <Home />
-        </Route>
-        <Route path="/ourteachers">
-          <OurTeachers />
-        </Route>
-        <Route path="/contactus">
-          <ContactUs />
-        </Route>
-      </Switch>
+      <AnimatePresence exitBeforeEnter>
+        <Switch location={location} key={location.key}>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/aboutus" exact>
+            <AboutUs />
+          </Route>
+          <Route path="/courses">
+            <Courses />
+          </Route>
+          <Route path="/courses/:id">
+            <Home />
+          </Route>
+          <Route path="/ourteachers">
+            <OurTeachers />
+          </Route>
+          <Route path="/contactus">
+            <ContactUs />
+          </Route>
+        </Switch>
+      </AnimatePresence>
     </div>
   );
 }

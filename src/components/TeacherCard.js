@@ -21,6 +21,7 @@ import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
+import { fade } from "../animations";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -62,7 +63,7 @@ const TeacherCard = ({
   };
 
   return (
-    <StyledCard>
+    <StyledCard variants={fade}>
       <Card className={`${classes.root} card`}>
         <CardHeader
           avatar={
@@ -85,9 +86,9 @@ const TeacherCard = ({
         />
         <CardContent>
           <CardContent>
-            <Typography paragraph>{`Teaches: ${instrument}`}</Typography>
+            <Typography color="textSecondary">{`Teaches: ${instrument}`}</Typography>
           </CardContent>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" component="p">
             {description1}
           </Typography>
         </CardContent>
