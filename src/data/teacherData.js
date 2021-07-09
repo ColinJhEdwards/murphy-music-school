@@ -81,9 +81,9 @@ export const Teachers = () => {
       description1:
         "No music school is complete without a conductor as passionate and diverse as Luca. His group oriented lessons create stunning performances from our students.",
       description2:
-        "He obtained his Doctorate in Orchestral Conducting at the age of 15 from Berklee's School of Music and was recognized early on as a prodigy. Luca uses the knowledge obtained from his educational experience and applies it to conducting bands and choirs alongside orchestras. Thanks to Luca, Murphy's Music School is able to offer a wide variety of courses, creating the most fantastic of interactions between students and staff.",
+        "He obtained his Doctorate in Orchestral Conducting at the age of 15 from Berklee's School of Music and was recognized early on as a prodigy. Luca uses the knowledge obtained from his educational experience and applies it to conducting choirs and orchestras. He even uses his knowledge to help students form their own bands and teaches them how to play together. Thanks to Luca, Murphy's Music School is able to offer a wide variety of courses, creating the most fantastic of interactions between students and staff.",
       image: luca,
-      instrument: "Orchestra, Band, Choir",
+      instrument: "Band, Orchestra, Choir",
       hobbies: "Juggling, Knot Tying",
     },
     {
