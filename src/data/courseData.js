@@ -47,10 +47,10 @@ export const CourseData = () => {
     },
     {
       id: 6,
-      type: "Orchestra",
-      thumbnail: orchThumb,
+      type: "Voice",
+      thumbnail: voiceThumb,
       header:
-        "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+        "If you love to sing and want to understand how your voice works, how to improve it and how to keep it healthy, we can help. There are tools and techniques that can be used to improve one’s breath support, pitch, range, tone and more.",
     },
     {
       id: 7,
@@ -68,8 +68,8 @@ export const CourseData = () => {
     },
     {
       id: 9,
-      type: "Voice",
-      thumbnail: voiceThumb,
+      type: "Orchestra",
+      thumbnail: orchThumb,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
     },

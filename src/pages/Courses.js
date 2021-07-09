@@ -9,7 +9,7 @@ const Courses = () => {
   return (
     <StyledCourses className="courses">
       <div>
-        <h2>Courses</h2>
+        <h1>Courses</h1>
       </div>
       <div className="courseList">
         {courses.map((c) => (
@@ -28,14 +28,19 @@ const Courses = () => {
 
 const StyledCourses = styled(motion.section)`
   min-height: 95vh;
-  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  h1 {
+    margin-top: 2rem;
+  }
   .courseList {
+    min-height: 90vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
 `;
