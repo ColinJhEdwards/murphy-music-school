@@ -28,12 +28,16 @@ const Courses = () => {
 
 const StyledCourses = styled(motion.section)`
   min-height: 95vh;
-  width: 90%;
+  width: 80%;
   margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  .courseList {
+    display: flex;
+    flex-wrap: wrap;
+  }
 `;
 
 export default Courses;

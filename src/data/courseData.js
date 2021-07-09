@@ -15,35 +15,35 @@ export const CourseData = () => {
       type: "Piano",
       thumbnail: pianoThumb,
       header:
-        "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+        "No other musical instrument expands as broadly into the essence of music as does the piano. Melody, harmony, bass, and rhythm reside right beneath your fingertips in black and white.",
     },
     {
       id: 2,
       type: "Guitar",
       thumbnail: guitarThumb,
       header:
-        "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+        "Our guitar teachers are passionate and experienced in what they do, bringing inspiration and fun to their guitar lessons, as well as deliver the absolute highest standards of technique, theory, and improvisation! ",
     },
     {
       id: 3,
       type: "Bass",
       thumbnail: bassThumb,
       header:
-        "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+        "The bass provides the rhythmic and harmonic foundation in music. It is a powerful bridge anchoring melody and harmony to the drums. Bass makes music feel good! The world needs more great bass players.",
     },
     {
       id: 4,
       type: "Drums",
       thumbnail: drumThumb,
       header:
-        "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+        "Thanks to Linguini, we've been home to a world class drummer since the beginning, and have helped train students to find success through their own personal rhythm.  Learning to play the drums can serve as a powerful outlet and anchor, no matter what stage of life you're in. ",
     },
     {
       id: 5,
       type: "Brass",
       thumbnail: brassThumb,
       header:
-        "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+        "All about that brass? Maybe you want to dust off that trumpet that's been waiting for you since the high school marching band days. Or maybe you started playing your tuba in a band and want to keep that embouchure fresh. Either way, if you're looking for brass lessons, we've got you covered.",
     },
     {
       id: 6,
