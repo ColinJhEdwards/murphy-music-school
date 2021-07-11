@@ -2,10 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import { fade } from "../animations";
 
 const CourseCard = ({ img, title, description, id }) => {
   return (
-    <StyledCard>
+    <StyledCard variants={fade}>
       <h2>{title}</h2>
       <Hide>
         <img src={img} alt={title} />
@@ -53,6 +54,10 @@ const StyledCard = styled(motion.div)`
     background: green;
     padding: 1rem 2rem;
     color: white;
+    transition: all ease 0.5s;
+    &:hover {
+      background: #025702;
+    }
   }
 `;
 

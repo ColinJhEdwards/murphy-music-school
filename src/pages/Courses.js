@@ -3,11 +3,18 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { CourseData } from "../data/courseData";
 import CourseCard from "../components/CourseCard";
+import { pageAnimation } from "../animations";
 
 const Courses = () => {
   const [courses, setCourses] = useState(CourseData);
   return (
-    <StyledCourses className="courses">
+    <StyledCourses
+      className="courses"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <div>
         <h1>Courses</h1>
       </div>
