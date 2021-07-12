@@ -1,0 +1,28 @@
+import React from "react";
+import styled from "styled-components";
+import { motion } from "framer-motion";
+
+const CourseDetail = () => {
+  return (
+    <section className="course">
+      <div>
+        <h2>{title}</h2>
+      </div>
+      <div>
+        <img src={imgLand} alt={title} />
+        <h2>History of {title}</h2>
+        <p>{history}</p>
+      </div>
+      <div>
+        <img src={img1} alt={title} />
+        <h2>Why {title}?</h2>
+        <p>{why}</p>
+      </div>
+      <div>
+        <img src={img2} alt={title} />
+        <h2>How long will it take to learn {howLong}</h2>
+        <p>{howLong}</p>
+      </div>
+    </section>
+  );
+};
