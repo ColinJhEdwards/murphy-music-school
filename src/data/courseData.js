@@ -42,13 +42,20 @@ export const CourseData = () => {
       id: 1,
       type: "Piano",
       thumbnail: pianoThumb,
+      imgLand: pianoLand,
+      img2: piano2,
+      img3: piano3,
       header:
         "No other musical instrument expands as broadly into the essence of music as does the piano. Melody, harmony, bass, and rhythm reside right beneath your fingertips in black and white.",
+      why: 
     },
     {
       id: 2,
       type: "Guitar",
       thumbnail: guitarThumb,
+      imgLand: guitarLand,
+      img2: guitar2,
+      img3: guitar3,
       header:
         "Our guitar teachers are passionate and experienced in what they do, bringing inspiration and fun to their guitar lessons, as well as deliver the absolute highest standards of technique, theory, and improvisation! ",
     },
@@ -56,6 +63,9 @@ export const CourseData = () => {
       id: 3,
       type: "Bass",
       thumbnail: bassThumb,
+      imgLand: brassLand,
+      img2: brass2,
+      img3: brass3,
       header:
         "The bass provides the rhythmic and harmonic foundation in music. It is a powerful bridge anchoring melody and harmony to the drums. Bass makes music feel good! The world needs more great bass players.",
     },
@@ -63,6 +73,9 @@ export const CourseData = () => {
       id: 4,
       type: "Drums",
       thumbnail: drumThumb,
+      imgLand: drumLand,
+      img2: drum2,
+      img3: drum3,
       header:
         "Thanks to Linguini, we've been home to a world class drummer since the beginning, and have helped train students to find success through their own personal rhythm.  Learning to play the drums can serve as a powerful outlet and anchor, no matter what stage of life you're in. ",
     },
@@ -70,6 +83,9 @@ export const CourseData = () => {
       id: 5,
       type: "Brass",
       thumbnail: brassThumb,
+      imgLand: brassLand,
+      img2: brass2,
+      img3: brass3,
       header:
         "All about that brass? Maybe you want to dust off that trumpet that's been waiting for you since the high school marching band days. Or maybe you started playing your tuba in a band and want to keep that embouchure fresh. Either way, if you're looking for brass lessons, we've got you covered.",
     },
@@ -77,6 +93,9 @@ export const CourseData = () => {
       id: 6,
       type: "Voice",
       thumbnail: voiceThumb,
+      imgLand: voiceLand,
+      img2: voice2,
+      img3: voice3,
       header:
         "If you love to sing and want to understand how your voice works, how to improve it and how to keep it healthy, we can help. There are tools and techniques that can be used to improve one’s breath support, pitch, range, tone and more.",
     },
@@ -84,6 +103,9 @@ export const CourseData = () => {
       id: 7,
       type: "Choir",
       thumbnail: choirThumb,
+      imgLand: choirLand,
+      img2: choir2,
+      img3: choir3,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
     },
@@ -91,6 +113,9 @@ export const CourseData = () => {
       id: 8,
       type: "Band",
       thumbnail: bandThumb,
+      imgLand: bandLand,
+      img2: band2,
+      img3: band3,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
     },
@@ -98,6 +123,9 @@ export const CourseData = () => {
       id: 9,
       type: "Orchestra",
       thumbnail: orchThumb,
+      imgLand: orchLand,
+      img2: orch2,
+      img3: orch3,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
     },
