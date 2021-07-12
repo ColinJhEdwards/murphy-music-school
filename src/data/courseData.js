@@ -7,6 +7,34 @@ import orchThumb from "../images/courses/orchThumb.jpg";
 import choirThumb from "../images/courses/choirThumb.jpg";
 import bandThumb from "../images/courses/bandThumb.jpg";
 import voiceThumb from "../images/courses/voiceThumb.jpg";
+//images for coureDetails
+import pianoLand from "../images/courses/pianoLand.jpg";
+import piano2 from "../images/courses/piano2.jpg";
+import piano3 from "../images/courses/piano3.jpg";
+import guitarLand from "../images/courses/guitarLand.jpg";
+import guitar2 from "../images/courses/guitar2.jpg";
+import guitar3 from "../images/courses/guitar3.jpg";
+import bassLand from "../images/courses/bassLand.jpg";
+import bass2 from "../images/courses/bass2.jpg";
+import bass3 from "../images/courses/bass3.jpg";
+import drumLand from "../images/courses/drumLand.jpg";
+import drum2 from "../images/courses/drum2.jpg";
+import drum3 from "../images/courses/drum3.jpg";
+import brassLand from "../images/courses/brassLand.jpg";
+import brass2 from "../images/courses/brass2.jpg";
+import brass3 from "../images/courses/brass3.jpg";
+import voiceLand from "../images/courses/voiceLand.jpg";
+import voice2 from "../images/courses/voice2.jpg";
+import voice3 from "../images/courses/voice3.jpg";
+import choirLand from "../images/courses/choirLand.jpg";
+import choir2 from "../images/courses/choir2.jpg";
+import choir3 from "../images/courses/choir3.jpg";
+import bandLand from "../images/courses/bandLand.jpg";
+import band2 from "../images/courses/band2.jpg";
+import band3 from "../images/courses/band3.jpg";
+import orchLand from "../images/courses/orchLand.jpg";
+import orch2 from "../images/courses/orch2.jpg";
+import orch3 from "../images/courses/orch3.jpg";
 
 export const CourseData = () => {
   return [
