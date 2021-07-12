@@ -2,7 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-const CourseDetail = () => {
+const CourseDetail = ({
+  id,
+  title,
+  header,
+  history,
+  why,
+  howLong,
+  imgLand,
+  img2,
+  img3,
+}) => {
   return (
     <section className="course">
       <div>
@@ -14,15 +24,18 @@ const CourseDetail = () => {
         <p>{history}</p>
       </div>
       <div>
-        <img src={img1} alt={title} />
+        <img src={img2} alt={title} />
         <h2>Why {title}?</h2>
+        <p>{header}</p>
         <p>{why}</p>
       </div>
       <div>
-        <img src={img2} alt={title} />
-        <h2>How long will it take to learn {howLong}</h2>
+        <img src={img3} alt={title} />
+        <h2>How long will it take to learn {title}?</h2>
         <p>{howLong}</p>
       </div>
     </section>
   );
 };
+
+export default CourseDetail;

@@ -47,6 +47,9 @@ export const CourseData = () => {
       img3: piano3,
       header:
         "No other musical instrument expands as broadly into the essence of music as does the piano. Melody, harmony, bass, and rhythm reside right beneath your fingertips in black and white.",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
       why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
       howLong:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",

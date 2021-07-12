@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
@@ -8,8 +8,11 @@ import ContactUs from "./pages/ContactUs";
 import GlobalStyle from "./components/GlobalStyle";
 import NavStuff from "./components/Nav";
 import { AnimatePresence } from "framer-motion";
+import CourseDetail from "./components/CourseDetail";
+import { CourseData } from "./data/courseData";
 
 function App() {
+  const [courses, setCourses] = useState(CourseData);
   const location = useLocation();
   return (
     <div className="App">
@@ -23,12 +26,25 @@ function App() {
           <Route path="/aboutus" exact>
             <AboutUs />
           </Route>
-          <Route path="/courses">
+          <Route path="/courses" exact>
             <Courses />
           </Route>
-          <Route path="/courses/:id">
-            <Home />
-          </Route>
+          {courses.map((course) => (
+            <Route path={`/courses/${course.id}`}>
+              <CourseDetail
+                id={course.id}
+                key={course.id}
+                title={course.type}
+                imgLand={course.imgLand}
+                img2={course.img2}
+                img3={course.img3}
+                header={course.header}
+                why={course.why}
+                howLong={course.howLong}
+              />
+            </Route>
+          ))}
+
           <Route path="/ourteachers">
             <OurTeachers />
           </Route>
