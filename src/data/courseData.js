@@ -47,7 +47,9 @@ export const CourseData = () => {
       img3: piano3,
       header:
         "No other musical instrument expands as broadly into the essence of music as does the piano. Melody, harmony, bass, and rhythm reside right beneath your fingertips in black and white.",
-      why: 
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 2,
@@ -58,16 +60,27 @@ export const CourseData = () => {
       img3: guitar3,
       header:
         "Our guitar teachers are passionate and experienced in what they do, bringing inspiration and fun to their guitar lessons, as well as deliver the absolute highest standards of technique, theory, and improvisation! ",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 3,
       type: "Bass",
       thumbnail: bassThumb,
-      imgLand: brassLand,
-      img2: brass2,
-      img3: brass3,
+      imgLand: bassLand,
+      img2: bass2,
+      img3: bass3,
       header:
         "The bass provides the rhythmic and harmonic foundation in music. It is a powerful bridge anchoring melody and harmony to the drums. Bass makes music feel good! The world needs more great bass players.",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 4,
@@ -78,6 +91,12 @@ export const CourseData = () => {
       img3: drum3,
       header:
         "Thanks to Linguini, we've been home to a world class drummer since the beginning, and have helped train students to find success through their own personal rhythm.  Learning to play the drums can serve as a powerful outlet and anchor, no matter what stage of life you're in. ",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 5,
@@ -88,6 +107,12 @@ export const CourseData = () => {
       img3: brass3,
       header:
         "All about that brass? Maybe you want to dust off that trumpet that's been waiting for you since the high school marching band days. Or maybe you started playing your tuba in a band and want to keep that embouchure fresh. Either way, if you're looking for brass lessons, we've got you covered.",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 6,
@@ -98,6 +123,12 @@ export const CourseData = () => {
       img3: voice3,
       header:
         "If you love to sing and want to understand how your voice works, how to improve it and how to keep it healthy, we can help. There are tools and techniques that can be used to improve one’s breath support, pitch, range, tone and more.",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 7,
@@ -108,6 +139,12 @@ export const CourseData = () => {
       img3: choir3,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 8,
@@ -118,6 +155,12 @@ export const CourseData = () => {
       img3: band3,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
     {
       id: 9,
@@ -128,6 +171,12 @@ export const CourseData = () => {
       img3: orch3,
       header:
         "This is filler text until I come up with desc. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quibusdam quaerat laudantium. Beatae itaque voluptatem similique eligendi, magni vitae perferendis!",
+      history:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
+
+      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      howLong:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },
   ];
 };
