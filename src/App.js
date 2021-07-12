@@ -39,6 +39,7 @@ function App() {
                 img2={course.img2}
                 img3={course.img3}
                 header={course.header}
+                history={course.history}
                 why={course.why}
                 howLong={course.howLong}
               />

@@ -31,7 +31,7 @@ const CourseDetail = ({
       </div>
       <div>
         <img src={img3} alt={title} />
-        <h2>How long will it take to learn {title}?</h2>
+        <h2>How long will it take to learn?</h2>
         <p>{howLong}</p>
       </div>
     </section>
