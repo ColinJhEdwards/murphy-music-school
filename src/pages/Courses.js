@@ -46,9 +46,9 @@ const StyledCourses = styled(motion.section)`
   .courseList {
     min-height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
   }
 `;
 

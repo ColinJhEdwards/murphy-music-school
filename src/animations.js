@@ -24,6 +24,14 @@ export const pageAnimation = {
   },
 };
 
+export const width = {
+  hidden: { width: "0%" },
+  show: {
+    width: "100%",
+    transition: { duration: 1 },
+  },
+};
+
 export const ySlide = {
   hidden: { y: "150%" },
   show: {

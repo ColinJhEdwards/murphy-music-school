@@ -34,8 +34,8 @@ const StyledCard = styled(motion.div)`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 40%;
-  height: 600px;
+  width: 50%;
+  height: 800px;
   margin: 1rem;
   text-align: center;
   transition: all ease 0.5s;
@@ -46,7 +46,7 @@ const StyledCard = styled(motion.div)`
     }
   }
   img {
-    width: 400px;
+    width: 100%;
     border-radius: 15px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: all ease 2s;
@@ -73,6 +73,7 @@ const Hide = styled.div`
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  width: 80%;
 `;
 
 export default CourseCard;

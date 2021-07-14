@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import { pageAnimation, fade } from "../animations";
+import { pageAnimation, fade, width } from "../animations";
 import ScrollTop from "./ScrollTop";
 
 const CourseDetail = ({
@@ -27,19 +27,19 @@ const CourseDetail = ({
         <div>
           <h1>{title}</h1>
         </div>
-        <Line></Line>
-        <div className="details">
+        <Line variants={width}></Line>
+        <motion.div variants={fade} className="details">
           <img src={imgLand} alt={title} />
           <h2>History of {title}</h2>
           <p>{history}</p>
-        </div>
-        <motion.div className="details">
+        </motion.div>
+        <motion.div variants={fade} className="details">
           <img src={img2} alt={title} />
           <h2>Why {title}?</h2>
           <p>{header}</p>
           <p>{why}</p>
         </motion.div>
-        <motion.div className="details">
+        <motion.div variants={fade} className="details">
           <img src={img3} alt={title} />
           <h2>How long will it take to learn?</h2>
           <p>{howLong}</p>
@@ -74,6 +74,7 @@ const StyledCourse = styled(motion.section)`
     }
     img {
       border-radius: 15px;
+      width: 100%;
     }
   }
 `;
