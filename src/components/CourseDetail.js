@@ -32,17 +32,17 @@ const CourseDetail = ({
           <h2>History of {title}</h2>
           <p>{history}</p>
         </div>
-        <div className="details">
+        <motion.div className="details">
           <img src={img2} alt={title} />
           <h2>Why {title}?</h2>
           <p>{header}</p>
           <p>{why}</p>
-        </div>
-        <div className="details">
+        </motion.div>
+        <motion.div className="details">
           <img src={img3} alt={title} />
           <h2>How long will it take to learn?</h2>
           <p>{howLong}</p>
-        </div>
+        </motion.div>
       </div>
     </StyledCourse>
   );

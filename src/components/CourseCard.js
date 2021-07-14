@@ -3,10 +3,18 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { fade } from "../animations";
+import { scrollReveal } from "../animations";
+import { useScroll } from "./useScroll";
 
 const CourseCard = ({ img, title, description, id }) => {
+  const [element, controls] = useScroll();
   return (
-    <StyledCard variants={fade}>
+    <StyledCard
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <h2>{title}</h2>
       <Hide>
         <img src={img} alt={title} />
@@ -26,7 +34,7 @@ const StyledCard = styled(motion.div)`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 500px;
+  width: 40%;
   height: 600px;
   margin: 1rem;
   text-align: center;
