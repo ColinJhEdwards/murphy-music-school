@@ -109,7 +109,7 @@ export const CourseData = () => {
       img2: brass2,
       img3: brass3,
       header:
-        "All about that brass? Maybe you want to dust off that trumpet that's been waiting for you since the high school marching band days. Or maybe you started playing your tuba in a band and want to keep that embouchure fresh. Either way, if you're looking for brass lessons, we've got you covered.",
+        "All about that brass? Maybe you want to dust off that trumpet that's been waiting for you since the high school marching band days. Or maybe you started playing your tuba in a band and want to keep that embouchure fresh.",
       history:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
 

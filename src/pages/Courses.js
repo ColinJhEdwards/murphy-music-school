@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { CourseData } from "../data/courseData";
 import CourseCard from "../components/CourseCard";
 import { pageAnimation } from "../animations";
+import note1 from "../images/display/note1.png";
+import note2 from "../images/display/note2.png";
 
 const Courses = () => {
   const [courses, setCourses] = useState(CourseData);
@@ -29,6 +31,12 @@ const Courses = () => {
           />
         ))}
       </div>
+      <div className="note1">
+        <img src={note1} alt="note1Image" />
+      </div>
+      <div className="note2">
+        <img src={note2} alt="note2Image" />
+      </div>
     </StyledCourses>
   );
 };
@@ -49,6 +57,28 @@ const StyledCourses = styled(motion.section)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .note1,
+  .note2 {
+    img {
+      margin: 0rem 1rem;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+  .note1 {
+    img {
+      right: 0;
+      top: 50%;
+      width: 20%;
+    }
+  }
+  .note2 {
+    img {
+      width: 10%;
+      left: 0;
+      top: 120%;
+    }
   }
 `;
 
