@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import { pageAnimation, fade } from "../animations";
+import ScrollTop from "./ScrollTop";
 
 const CourseDetail = ({
   id,
@@ -44,6 +45,7 @@ const CourseDetail = ({
           <p>{howLong}</p>
         </motion.div>
       </div>
+      <ScrollTop />
     </StyledCourse>
   );
 };
