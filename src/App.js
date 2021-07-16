@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import AboutUs from "./pages/AboutUs";
 import Courses from "./pages/Courses";
 import OurTeachers from "./pages/OurTeachers";
 import ContactUs from "./pages/ContactUs";
@@ -22,9 +21,6 @@ function App() {
         <Switch location={location} key={location.key}>
           <Route path="/" exact>
             <Home />
-          </Route>
-          <Route path="/aboutus" exact>
-            <AboutUs />
           </Route>
           <Route path="/courses" exact>
             <Courses />

@@ -28,7 +28,7 @@ export const Teachers = () => {
       description2:
         "After two years of practicing Nick explained to his friends and family that he will be embarking on a retreat into nature for the next five years where he will do nothing but practice bass. Upon his return Nick was capable of what most bass players would claim to be impossible and could playing the grooviest of base lines. He was later recruited into the famous band Tegratree and now teaches alongside his fellow band members.",
       image: nick,
-      instrument: "bass",
+      instrument: "Bass",
       hobbies: "Motorcycles, Videography",
     },
     {
