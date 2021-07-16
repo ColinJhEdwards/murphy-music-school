@@ -37,6 +37,12 @@ const Courses = () => {
       <div className="note2">
         <img src={note2} alt="note2Image" />
       </div>
+      <div className="note3">
+        <img src={note1} alt="note2Image" />
+      </div>
+      <div className="note4">
+        <img src={note2} alt="note2Image" />
+      </div>
     </StyledCourses>
   );
 };
@@ -59,7 +65,9 @@ const StyledCourses = styled(motion.section)`
     align-items: center;
   }
   .note1,
-  .note2 {
+  .note2,
+  .note3,
+  .note4 {
     img {
       margin: 0rem 1rem;
       position: absolute;
@@ -70,14 +78,28 @@ const StyledCourses = styled(motion.section)`
     img {
       right: 0;
       top: 50%;
-      width: 20%;
+      width: 10%;
     }
   }
   .note2 {
     img {
       width: 10%;
       left: 0;
-      top: 120%;
+      top: 200%;
+    }
+  }
+  .note3 {
+    img {
+      width: 10%;
+      left: 0;
+      top: 350%;
+    }
+  }
+  .note4 {
+    img {
+      width: 10%;
+      right: 0;
+      top: 500%;
     }
   }
 `;

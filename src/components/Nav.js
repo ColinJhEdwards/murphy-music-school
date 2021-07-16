@@ -14,7 +14,6 @@ const NavStuff = () => {
             <Nav.Link>
               <Link to="/">Home</Link>
             </Nav.Link>
-
             <Nav.Link>
               <Link to="/courses">Courses</Link>
             </Nav.Link>
