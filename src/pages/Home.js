@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import ImageSlides from "../components/ImageSlides";
 import { pageAnimation } from "../animations";
+import AboutUs from "../components/AboutUs";
 
 const Home = () => {
   return (
@@ -13,8 +14,11 @@ const Home = () => {
       animate="show"
       exit="exit"
     >
-      <div>
+      <div className="caro">
         <ImageSlides />
+      </div>
+      <div className="aboutUs">
+        <AboutUs />
       </div>
     </StyledHome>
   );
@@ -22,6 +26,8 @@ const Home = () => {
 
 const StyledHome = styled(motion.section)`
   min-height: 95vh;
+  width: 90%;
+  margin: auto;
 `;
 
 export default Home;
