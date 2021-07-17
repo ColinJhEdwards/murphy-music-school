@@ -31,18 +31,6 @@ const Courses = () => {
           />
         ))}
       </div>
-      <div className="note1">
-        <img src={note1} alt="note1Image" />
-      </div>
-      <div className="note2">
-        <img src={note2} alt="note2Image" />
-      </div>
-      <div className="note3">
-        <img src={note1} alt="note2Image" />
-      </div>
-      <div className="note4">
-        <img src={note2} alt="note2Image" />
-      </div>
     </StyledCourses>
   );
 };
@@ -66,44 +54,6 @@ const StyledCourses = styled(motion.section)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .note1,
-  .note2,
-  .note3,
-  .note4 {
-    img {
-      margin: 0rem 1rem;
-      position: absolute;
-      z-index: -1;
-    }
-  }
-  .note1 {
-    img {
-      right: 0;
-      top: 50%;
-      width: 10%;
-    }
-  }
-  .note2 {
-    img {
-      width: 10%;
-      left: 0;
-      top: 200%;
-    }
-  }
-  .note3 {
-    img {
-      width: 10%;
-      left: 0;
-      top: 350%;
-    }
-  }
-  .note4 {
-    img {
-      width: 10%;
-      right: 0;
-      top: 500%;
-    }
   }
 `;
 
