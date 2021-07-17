@@ -93,7 +93,7 @@ const StyledCourse = styled(motion.section)`
 const Line = styled(motion.div)`
   height: 3px;
   width: 100%;
-  background: #5697f1;
+  background: #0065f3;
   border-radius: 50px;
 `;
 

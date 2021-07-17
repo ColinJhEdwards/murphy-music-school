@@ -75,12 +75,12 @@ const StyledCard = styled(motion.div)`
     border: none;
     border-radius: 15px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
-    background: #5697f1;
+    background: #0065f3;
     padding: 1rem 2rem;
     color: white;
     transition: all ease 0.5s;
     &:hover {
-      background: #31495a;
+      background: #04395f;
     }
   }
 `;

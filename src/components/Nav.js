@@ -31,7 +31,9 @@ const NavStuff = () => {
               <Underline
                 transition={{ duration: 0.75 }}
                 initial={{ width: "0%" }}
-                animate={{ width: pathname === "/courses" ? "100%" : "0%" }}
+                animate={{
+                  width: pathname === "/courses" ? "100%" : "0%",
+                }}
               ></Underline>
             </Nav.Link>
             <Nav.Link className="relative">
@@ -83,7 +85,7 @@ const StyledNav = styled.div`
     transition: all ease 0.5s;
     text-shadow: 1px 1px 4px black;
     &:hover {
-      color: #5697f1;
+      color: #0065f3;
     }
   }
   @media (max-width: 500px) {
@@ -105,6 +107,9 @@ const Underline = styled(motion.div)`
   border-radius: 25px;
   position: absolute;
   left: 0;
+  @media (max-width: 500px) {
+    background: none;
+  }
 `;
 
 export default NavStuff;

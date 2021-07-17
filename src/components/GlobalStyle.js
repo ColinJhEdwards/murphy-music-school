@@ -28,7 +28,7 @@ a{
 
 .colors{
     color: #5f6366;
-    color: #4d6d9a;
+    color: #0065f3;
     color: #86b3d1;
     color: #99ced3;
     color: #f55673;
