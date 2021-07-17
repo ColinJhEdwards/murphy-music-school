@@ -57,7 +57,17 @@ const StyledNav = styled.div`
     transition: all ease 0.5s;
     text-shadow: 1px 1px 4px black;
     &:hover {
-      color: #4d6d9a;
+      color: #5697f1;
+    }
+  }
+  @media (max-width: 500px) {
+    .logo {
+      font-size: 1.2rem;
+    }
+    .link {
+      background: #f55673;
+      padding: 0.5rem;
+      border-radius: 15px;
     }
   }
 `;

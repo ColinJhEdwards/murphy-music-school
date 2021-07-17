@@ -25,23 +25,31 @@ const CourseDetail = ({
     >
       <div className="course">
         <div>
-          <h1>{title}</h1>
+          <h1>
+            <span>{title}</span>
+          </h1>
         </div>
         <Line variants={width}></Line>
         <motion.div variants={fade} className="details">
           <img src={imgLand} alt={title} />
-          <h2>History of {title}</h2>
+          <h2>
+            History of <span>{title}</span>
+          </h2>
           <p>{history}</p>
         </motion.div>
         <motion.div variants={fade} className="details">
           <img src={img2} alt={title} />
-          <h2>Why {title}?</h2>
+          <h2>
+            Why <span>{title}</span>?
+          </h2>
           <p>{header}</p>
           <p>{why}</p>
         </motion.div>
         <motion.div variants={fade} className="details">
           <img src={img3} alt={title} />
-          <h2>How long will it take to learn?</h2>
+          <h2>
+            How long will it take to <span>learn?</span>
+          </h2>
           <p>{howLong}</p>
         </motion.div>
       </div>
@@ -58,6 +66,9 @@ const StyledCourse = styled(motion.section)`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    span {
+      color: #f55673;
+    }
     h1 {
       margin: 3rem 0rem;
     }
@@ -82,7 +93,7 @@ const StyledCourse = styled(motion.section)`
 const Line = styled(motion.div)`
   height: 3px;
   width: 100%;
-  background: green;
+  background: #5697f1;
   border-radius: 50px;
 `;
 

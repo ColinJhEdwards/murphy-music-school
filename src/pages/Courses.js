@@ -55,7 +55,10 @@ const StyledCourses = styled(motion.section)`
   align-items: center;
   justify-content: center;
   h1 {
-    margin-top: 2rem;
+    margin-top: 10rem;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+    font-size: 5rem;
   }
   .courseList {
     min-height: 90vh;

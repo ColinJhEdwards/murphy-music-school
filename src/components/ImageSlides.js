@@ -14,14 +14,14 @@ const ImageSlides = () => {
     <StyledCar>
       <Carousel fade interval="5000" pause="false">
         <Carousel.Item>
-          <img className="img d-block w-100" src={teach} alt="First slide" />
+          <img className="img d-block w-100" src={play} alt="First slide" />
           <Carousel.Caption>
             <h3>Murphy's Music School</h3>
             <p>We Make Your Dreams A Reaility</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="img d-block w-100" src={play} alt="Second slide" />
+          <img className="img d-block w-100" src={teach} alt="Second slide" />
           <Carousel.Caption>
             <h3>Murphy's Music School</h3>
             <p>We Make Your Dreams A Reaility</p>

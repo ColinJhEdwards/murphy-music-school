@@ -48,30 +48,39 @@ const StyledCard = styled(motion.div)`
       transform: scale(1.5);
     }
   }
+
   img {
     width: 100%;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     transition: all ease 2s;
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
+    filter: blur(4px);
+  }
+  h2,
+  p {
+    text-shadow: 2px 2px 4px black;
+  }
+  h2 {
+    font-size: 4rem;
   }
   p {
-    width: 55%;
+    width: 70%;
+    font-size: 2rem;
   }
   button {
     cursor: pointer;
     border: none;
     border-radius: 15px;
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
-    background: #4d6d9a;
+    background: #5697f1;
     padding: 1rem 2rem;
     color: white;
     transition: all ease 0.5s;
     &:hover {
-      background: #86b3d1;
+      background: #31495a;
     }
   }
 `;
