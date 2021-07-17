@@ -37,7 +37,7 @@ const StyledCard = styled(motion.div)`
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  min-height: 750px;
+  /* min-height: 750px; */
   text-align: center;
   transition: all ease 0.5s;
   position: relative;
@@ -65,10 +65,12 @@ const StyledCard = styled(motion.div)`
   }
   h2 {
     font-size: 4rem;
+    margin: 2rem 0rem;
   }
   p {
     width: 70%;
     font-size: 2rem;
+    margin: 2rem 0rem;
   }
   button {
     cursor: pointer;
@@ -77,10 +79,39 @@ const StyledCard = styled(motion.div)`
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
     background: #0065f3;
     padding: 1rem 2rem;
+    margin: 2rem 0rem;
     color: white;
     transition: all ease 0.5s;
     &:hover {
       background: #04395f;
+    }
+  }
+  @media (max-width: 1300px) {
+    p {
+      width: 90%;
+    }
+  }
+  @media (max-width: 1200px) {
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 850px) {
+    &:hover {
+      img {
+        transform: scale(1);
+      }
+    }
+    p {
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    img {
+      position: static;
+      filter: none;
+      width: 90%;
     }
   }
 `;
@@ -91,6 +122,9 @@ const Hide = styled(motion.div)`
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   width: 70%;
   margin: 2rem 0rem;
+  @media (max-width: 850px) {
+    width: 90%;
+  }
 `;
 
 export default CourseCard;

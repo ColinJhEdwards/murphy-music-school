@@ -64,10 +64,10 @@ export const CourseData = () => {
       header:
         "Our guitar teachers are passionate and experienced in what they do, bringing inspiration and fun to their guitar lessons, as well as deliver the absolute highest standards of technique, theory, and improvisation! ",
       history:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
-      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+        "A plucked stringed musical instrument that probably originated in Spain early in the 16th century, deriving from the guitarra latina, a late-medieval instrument with a waisted body and four strings. The early guitar was narrower and deeper than the modern guitar, with a less pronounced waist. It was closely related to the vihuela, the guitar-shaped instrument played in Spain in place of the lute. From the 16th to the 19th century several changes occurred in the instrument. A fifth course of strings was added before 1600; by the late 18th century a sixth course was added. Before 1800 the double courses were replaced by single strings tuned E–A–D–G–B–E, still the standard tuning. The guitar is widely played in the folk and popular music of many countries. In jazz ensembles it is part of the rhythm section and is occasionally played as a solo instrument. In popular music the guitar is usually amplified, and ensembles frequently include more than one instrument, a “lead” guitar for solos, another for rhythm, and a “bass” guitar to play bass lines.",
+      why: "Whether it’s writing original material or reworking a song for your covers band, the guitar is unlike any other instrument for unleashing your creativity. We all have those moments when it’s hard to verbally express our feelings, but many guitarists find it easier to show their emotion, to process their feelings and to feel truly heard through playing the guitar. For most of our students, playing the guitar has became a hugely cathartic way to communicate their views, their feelings, passions and fear. Distilling it all into a haunting guitar riff, a blistering solo or a few simple chords, in a way they might never be able to with words. ",
       howLong:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
+        "Most songs have some really fun riffs, licks & chord strumming patterns that you can take home with you after your very first lesson! Of course there are tons of more challenging songs that will take you longer. You will never get bored playing the guitar but you can learn parts of songs you know right away. The speed at which you learn will be dependent on a number of factors such as: The length of time you practice each day, your age (older students tend to learn faster most of the time), and your commitment to a regular weekly lesson schedule.",
     },
     {
       id: 3,
@@ -93,11 +93,11 @@ export const CourseData = () => {
       img2: drum2,
       img3: drum3,
       header:
-        "Thanks to Linguini, we've been home to a world class drummer since the beginning, and have helped train students to find success through their own personal rhythm.  Learning to play the drums can serve as a powerful outlet and anchor, no matter what stage of life you're in. ",
+        "We've been home to a world class drummer since the beginning, and have helped train students to find success through their own personal rhythm. Drums are the backbone of most music genres.",
       history:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime eius, tempore dicta expedita vitae asperiores laudantium veniam doloribus voluptate in, similique dolorum! Maxime, doloribus obcaecati?",
 
-      why: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
+      why: "Learning to play the drums can serve as a powerful outlet and anchor, no matter what stage of life you're in. The instrument is probably one of the most active ways to play music. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolor nobis, inventore dolore repellendus dolorem harum ea, ad beatae ipsam quas expedita excepturi quisquam! Dolorem.",
       howLong:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dolor illo adipisci nemo ipsa nobis perferendis porro ducimus. Eius deserunt consequatur sed facilis optio! Iure!",
     },

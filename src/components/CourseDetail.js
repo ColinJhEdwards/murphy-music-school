@@ -70,7 +70,10 @@ const StyledCourse = styled(motion.section)`
       color: #f55673;
     }
     h1 {
-      margin: 3rem 0rem;
+      margin-bottom: 3rem;
+      margin-top: 6rem;
+      font-size: 5rem;
+      text-shadow: 1px 1px 4px black;
     }
     .details {
       display: flex;

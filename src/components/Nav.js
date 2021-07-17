@@ -9,7 +9,7 @@ const NavStuff = () => {
   const { pathname } = useLocation();
   return (
     <StyledNav>
-      <Navbar bg="none" expand="sm" className="noov">
+      <Navbar bg="none" expand="lg" className="noov navbar-dark">
         <Navbar.Brand className="text logo">Murphy's Music School</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
