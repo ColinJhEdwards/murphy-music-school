@@ -26,7 +26,7 @@ const Home = () => {
 
 const StyledHome = styled(motion.section)`
   min-height: 95vh;
-  width: 90%;
+
   margin: auto;
 `;
 

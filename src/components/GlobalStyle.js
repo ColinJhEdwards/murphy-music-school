@@ -11,6 +11,7 @@ const GlobalStyle = createGlobalStyle`
 body{
    
     font-family: 'Roboto', sans-serif;
+    background: #5f6366;
     
 }
 
@@ -23,6 +24,13 @@ a{
     }
 }
 
+.colors{
+    color: #5f6366;
+    color: #4d6d9a;
+    color: #86b3d1;
+    color: #99ced3;
+    color: #edb5bf;
+}
 
 `;
 

@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+// icons
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDollarSign, faClock } from "@fortawesome/free-solid-svg-icons";
 
 const AboutUs = () => {
   return (
