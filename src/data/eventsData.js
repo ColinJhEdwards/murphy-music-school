@@ -16,6 +16,9 @@ const eventsData = () => {
         "Students of all skill levels are encouraged to join and participate! If you are interested in attending Murphy's Music School we highly encourage you to attend this event and see what our students are capable of.",
       thumb: jamThumb,
       image: jam,
+      date: "Every Friday night from 7pm-9pm!",
+      location: "Murphy's Music School - Concert Hall C",
+      cost: "Current Students: Free, Non-students: $5.00",
     },
     {
       id: 2,
@@ -23,9 +26,12 @@ const eventsData = () => {
       description1:
         "Hosted by Luca, every month we host a performance on the very roof of Murphy's Music School. One of the many benefits of attending Murphy's Music School is the opportunity to form your own band with your fellow students and we love to show off the bands that have been formed at our school.",
       description2:
-        "Bring your friends, bring your family, sit back and enjoy the likes of 'A Band Named Bob', 'The Lord Is My Shotgun', 'The Moscow Gentlemen', 'Crab Rangoon', and many, many more. We promise you won't be disappointed",
+        "Bring your friends, bring your family, sit back and enjoy the likes of 'A Band Named Bob', '45 Second Neighbors', 'The Moscow Gentlemen', 'Crab Rangoon Cometh Forth', and many, many more. We promise you won't be disappointed",
       thumb: roofThumb,
       image: roof,
+      date: "Every third Saturday of the month from 7pm-9pm!",
+      location: "Murphy's Music School - Rooftop",
+      cost: "Current Students: Free, Non-students: $5.00",
     },
     {
       id: 3,
@@ -36,6 +42,9 @@ const eventsData = () => {
         "While this can be daunting for most students, they always come out of this experience empowered as a musician and obtain a greater sense of confidence in their abilities.",
       thumb: concertThumb,
       image: concert,
+      date: "Every Wednesday night from 7pm-9pm!",
+      location: "Murphy's Music School, Concert Hall A",
+      cost: "Current Students: Free, Non-students: $5.00",
     },
   ];
 };
