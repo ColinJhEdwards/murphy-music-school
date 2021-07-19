@@ -25,21 +25,21 @@ const AboutUs = () => {
     >
       <div className="text">
         <h1>Murphy's Music School</h1>
-        <h3>
+        <p>
           Every day, we watch our students grow from beginner musicians to
           confident and inspiring rock stars in their community. Murphy's Music
           School strives to be more than just your local music school.
-        </h3>
-        <h3>
+        </p>
+        <p>
           All of our lessons for kids, teens, and adults are designed to help
           students gain amazing musical proficiency, using a performance-based
           music education approach.
-        </h3>
-        <h3>
+        </p>
+        <p>
           This means the curriculum focuses on learning music concepts and
           applying them in a live performance setting. Students lessons include
           one weekly private music lesson and a weekly group rehearsel.
-        </h3>
+        </p>
       </div>
       <div className="image">
         <div className="image">
@@ -70,7 +70,7 @@ const AboutUs = () => {
 };
 
 const StyledUs = styled(motion.div)`
-  min-height: 90vh;
+  min-height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -82,9 +82,12 @@ const StyledUs = styled(motion.div)`
     width: 50%;
     h1 {
       font-size: 6rem;
+      text-shadow: 1px 1px 4px black;
     }
-    h3 {
+    p {
       margin: 2rem 0rem;
+      font-size: 1.3rem;
+      text-shadow: 1px 1px 4px black;
     }
   }
   .image {
@@ -93,17 +96,22 @@ const StyledUs = styled(motion.div)`
     justify-content: center;
     img {
       width: 70%;
+      border-radius: 15px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     }
   }
   .icons {
     display: flex;
     margin: auto;
+    flex-wrap: wrap;
     .hold {
       display: flex;
       align-items: center;
       justify-content: space-around;
+      flex-wrap: wrap;
       p {
         font-size: 2rem;
+        text-shadow: 1px 1px 4px black;
         margin: 4rem;
         display: flex;
         flex-direction: column;
