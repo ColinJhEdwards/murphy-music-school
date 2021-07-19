@@ -9,10 +9,20 @@ import {
   faGraduationCap,
   faMusic,
 } from "@fortawesome/free-solid-svg-icons";
+import about from "../images/display/about.jpg";
+//scroll animation
+import { scrollReveal } from "../animations";
+import { useScroll } from "./useScroll";
 
 const AboutUs = () => {
+  const [element, controls] = useScroll();
   return (
-    <StyledUs>
+    <StyledUs
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <div className="text">
         <h1>Murphy's Music School</h1>
         <h3>
@@ -30,6 +40,11 @@ const AboutUs = () => {
           applying them in a live performance setting. Students lessons include
           one weekly private music lesson and a weekly group rehearsel.
         </h3>
+      </div>
+      <div className="image">
+        <div className="image">
+          <img src={about} alt="aboutpageimage" />
+        </div>
       </div>
       <div className="icons">
         <div className="hold">
@@ -59,10 +74,12 @@ const StyledUs = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   width: 80%;
   margin: auto;
+  margin-top: 2rem;
   .text {
-    width: 60%;
+    width: 50%;
     h1 {
       font-size: 6rem;
     }
@@ -70,7 +87,17 @@ const StyledUs = styled(motion.div)`
       margin: 2rem 0rem;
     }
   }
+  .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 70%;
+    }
+  }
   .icons {
+    display: flex;
+    margin: auto;
     .hold {
       display: flex;
       align-items: center;
@@ -82,6 +109,7 @@ const StyledUs = styled(motion.div)`
         flex-direction: column;
         align-items: center;
       }
+
       .icon {
         font-size: 5rem;
         color: #0065f3;
