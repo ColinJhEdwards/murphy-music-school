@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 const EventCard = ({ name, img }) => {
   return (
-    <Hide>
-      <StyledCard>
+    <StyledCard>
+      <Hide>
         <img src={img} alt={name} />
-        <h2>{name}</h2>
-      </StyledCard>
-    </Hide>
+      </Hide>
+      <h2>{name}</h2>
+    </StyledCard>
   );
 };
 
@@ -23,10 +23,15 @@ const StyledCard = styled(motion.div)`
   transition: all ease 0.5s;
   cursor: pointer;
   &:hover {
-    box-shadow: 0px 0px 20px #0065f3;
+    box-shadow: 10px 10px 10px #0065f3;
+    img {
+      transform: scale(1.7);
+    }
   }
-  img {
+  img,
+  h2 {
     width: 100%;
+    transition: all ease 1s;
   }
 
   h2 {
@@ -35,7 +40,6 @@ const StyledCard = styled(motion.div)`
     bottom: 0;
     left: 0;
     padding: 1rem;
-    width: 100%;
     background: rgba(0, 0, 0, 0.5);
     @supports (backdrop-filter: blur(10px)) or
       (--webkit-backdrop-filter: blur(10px)) {
