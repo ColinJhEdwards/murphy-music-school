@@ -9,9 +9,12 @@ import NavStuff from "./components/Nav";
 import { AnimatePresence } from "framer-motion";
 import CourseDetail from "./components/CourseDetail";
 import { CourseData } from "./data/courseData";
+import eventsData from "./data/eventsData";
+import EventDetails from "./components/EventDetails";
 
 function App() {
   const [courses, setCourses] = useState(CourseData);
+  const [events, setEvents] = useState(eventsData);
   const location = useLocation();
   return (
     <div className="App">
@@ -22,6 +25,11 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
+          {events.map((ev) => (
+            <Route path={`/events/${ev.id}`}>
+              <EventDetails />
+            </Route>
+          ))}
           <Route path="/courses" exact>
             <Courses />
           </Route>

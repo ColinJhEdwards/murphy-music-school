@@ -1,15 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { fade } from "../animations";
+import { Link } from "react-router-dom";
 
-const EventCard = ({ name, img }) => {
+const EventCard = ({ name, img, id }) => {
   return (
-    <StyledCard>
-      <Hide>
-        <img src={img} alt={name} />
-      </Hide>
-      <h2>{name}</h2>
-    </StyledCard>
+    <Link to={`/events/${id}`}>
+      <StyledCard variants={fade} initial="hidden" animate="show" exit="exit">
+        <Hide>
+          <img src={img} alt={name} />
+        </Hide>
+        <h2>{name}</h2>
+      </StyledCard>
+    </Link>
   );
 };
 

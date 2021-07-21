@@ -80,6 +80,7 @@ const StyledUs = styled(motion.div)`
   margin-top: 2rem;
   .text {
     width: 50%;
+
     h1 {
       font-size: 6rem;
       text-shadow: 1px 1px 4px black;

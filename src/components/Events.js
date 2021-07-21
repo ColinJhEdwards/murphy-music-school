@@ -3,17 +3,25 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import EventCard from "./EventCard";
 import eventsData from "../data/eventsData";
+import { scrollReveal } from "../animations";
+import { useScroll } from "./useScroll";
 
 const Events = () => {
   const [events, setEvents] = useState(eventsData);
+  const [element, controls] = useScroll();
   return (
-    <StyledEvents>
+    <StyledEvents
+      variants={scrollReveal}
+      animate={controls}
+      initial="hidden"
+      ref={element}
+    >
       <div className="title">
         <h1>Events</h1>
       </div>
       <div className="cards">
         {events.map((ev) => (
-          <EventCard name={ev.name} img={ev.thumb} />
+          <EventCard name={ev.name} img={ev.thumb} id={ev.id} />
         ))}
       </div>
     </StyledEvents>
