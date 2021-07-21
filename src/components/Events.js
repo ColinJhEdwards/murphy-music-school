@@ -26,8 +26,21 @@ const StyledEvents = styled(motion.div)`
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  .title {
+    h1 {
+      font-size: 5rem;
+      text-shadow: 1px 1px 4px black;
+    }
+  }
   .cards {
     display: flex;
+  }
+  @media (max-width: 1024px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
 
