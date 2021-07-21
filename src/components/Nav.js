@@ -4,13 +4,17 @@ import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router";
 import { motion } from "framer-motion";
+import Logo2 from "./Logo2";
 
 const NavStuff = () => {
   const { pathname } = useLocation();
   return (
     <StyledNav>
       <Navbar bg="none" expand="lg" className="noov navbar-dark">
-        <Navbar.Brand className="text logo">Murphy's Music School</Navbar.Brand>
+        <Navbar.Brand className="text logo">
+          <Logo2 />
+          Murphy's Music School
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
@@ -72,6 +76,7 @@ const StyledNav = styled.div`
     margin: auto;
   }
   .logo {
+    display: flex;
     font-size: 2rem;
   }
   .relative {

@@ -5,6 +5,7 @@ import EventCard from "./EventCard";
 import eventsData from "../data/eventsData";
 import { scrollReveal } from "../animations";
 import { useScroll } from "./useScroll";
+import Logo from "./Logo";
 
 const Events = () => {
   const [events, setEvents] = useState(eventsData);
@@ -17,7 +18,8 @@ const Events = () => {
       ref={element}
     >
       <div className="title">
-        <h1>Events</h1>
+        <h1>Upcoming Events</h1>
+        <Logo />
       </div>
       <div className="cards">
         {events.map((ev) => (
@@ -35,6 +37,7 @@ const StyledEvents = styled(motion.div)`
   justify-content: space-around;
   align-items: center;
   .title {
+    text-align: center;
     h1 {
       font-size: 5rem;
       text-shadow: 1px 1px 4px black;
