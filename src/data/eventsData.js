@@ -1,7 +1,7 @@
 import jamThumb from "../images/events/jam1.jpg";
 import jam from "../images/events/jam2.jpg";
 import roofThumb from "../images/events/roof1.jpg";
-import roof from "../images/event/roof2.jpg";
+import roof from "../images/events/roof2.jpg";
 import concertThumb from "../images/events/concert1.jpg";
 import concert from "../images/events/concert2.jpg";
 

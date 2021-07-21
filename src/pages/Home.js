@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import ImageSlides from "../components/ImageSlides";
 import { pageAnimation } from "../animations";
 import AboutUs from "../components/AboutUs";
+import Events from "../components/Events";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
       </div>
       <div className="aboutUs">
         <AboutUs />
+      </div>
+      <div className="events">
+        <Events />
       </div>
     </StyledHome>
   );
