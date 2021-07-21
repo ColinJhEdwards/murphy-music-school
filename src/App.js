@@ -27,7 +27,17 @@ function App() {
           </Route>
           {events.map((ev) => (
             <Route path={`/events/${ev.id}`}>
-              <EventDetails />
+              <EventDetails
+                id={ev.id}
+                key={ev.id}
+                name={ev.name}
+                desc1={ev.description1}
+                desc2={ev.description2}
+                image={ev.image}
+                date={ev.date}
+                location={ev.location}
+                cost={ev.cost}
+              />
             </Route>
           ))}
           <Route path="/courses" exact>

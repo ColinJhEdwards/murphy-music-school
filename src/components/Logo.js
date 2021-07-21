@@ -31,7 +31,7 @@ const Logo = () => {
 };
 
 const StyledLogo = styled.div`
-  margin: 0rem 1rem;
+  margin: 2rem 0rem;
 `;
 
 export default Logo;
