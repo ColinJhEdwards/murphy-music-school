@@ -89,6 +89,7 @@ const StyledNav = styled.div`
     color: white;
     transition: all ease 0.5s;
     text-shadow: 1px 1px 4px black;
+    font-family: "Encode Sans SC", sans-serif;
     &:hover {
       color: #0065f3;
     }

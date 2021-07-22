@@ -52,7 +52,19 @@ const StyledCar = styled(motion.div)`
   margin: auto;
   h3,
   p {
+    padding: 5rem 0rem;
+    width: 40%;
+    border: solid 3px white;
+    margin: auto;
     text-shadow: 2px 2px black;
+    background: rgba(0, 0, 0, 0.5);
+    @supports (backdrop-filter: blur(10px)) or
+      (--webkit-backdrop-filter: blur(10px)) {
+      & {
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+      }
+    }
   }
   .img {
     height: 90vh;

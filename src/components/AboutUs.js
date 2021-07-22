@@ -122,6 +122,7 @@ const StyledUs = styled(motion.div)`
       .icon {
         font-size: 5rem;
         color: #0065f3;
+        text-shadow: 1px 1px 4px black;
       }
     }
   }
