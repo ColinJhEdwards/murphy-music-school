@@ -33,17 +33,17 @@ const CourseDetail = ({
         <motion.div variants={fade} className="details">
           <img src={imgLand} alt={title} />
           <h2>
-            History of <span>{title}</span>
-          </h2>
-          <p>{history}</p>
-        </motion.div>
-        <motion.div variants={fade} className="details">
-          <img src={img2} alt={title} />
-          <h2>
             Why <span>{title}</span>?
           </h2>
           <p>{header}</p>
           <p>{why}</p>
+        </motion.div>
+        <motion.div variants={fade} className="details">
+          <img src={img2} alt={title} />
+          <h2>
+            History of <span>{title}</span>
+          </h2>
+          <p>{history}</p>
         </motion.div>
         <motion.div variants={fade} className="details">
           <img src={img3} alt={title} />

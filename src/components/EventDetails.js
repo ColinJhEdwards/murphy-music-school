@@ -73,6 +73,7 @@ const StyledEvent = styled(motion.div)`
   }
   .title {
     h1 {
+      font-size: 5rem;
       color: #f55673;
     }
   }
