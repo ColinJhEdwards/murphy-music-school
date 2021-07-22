@@ -68,6 +68,15 @@ export const fade = {
   },
 };
 
+export const noDelayFade = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+
+    transition: { duration: 1, delay: 0.5 },
+  },
+};
+
 export const shortFade = {
   hidden: { opacity: 0 },
   show: {

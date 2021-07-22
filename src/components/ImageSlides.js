@@ -67,7 +67,7 @@ const StyledCar = styled(motion.div)`
     }
   }
   .img {
-    height: 90vh;
+    height: 100vh;
     object-fit: cover;
   }
 `;

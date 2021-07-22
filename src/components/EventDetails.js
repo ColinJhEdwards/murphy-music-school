@@ -1,6 +1,13 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCalendar,
+  faMapMarkerAlt,
+  faDollarSign,
+} from "@fortawesome/free-solid-svg-icons";
+import { pageAnimation, fade, ySlide, noDelayFade } from "../animations";
 
 const EventDetails = ({
   d,
@@ -13,21 +20,39 @@ const EventDetails = ({
   cost,
 }) => {
   return (
-    <StyledEvent>
+    <StyledEvent
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <div className="stuff">
         <div className="title">
-          <h1>{name}</h1>
+          <motion.h1 variants={fade}>{name}</motion.h1>
         </div>
         <div className="content">
           <div className="text">
-            <h3>{desc1}</h3>
-            <h3>{desc2}</h3>
-            <p>Date: {date}</p>
-            <p>Location: {location}</p>
-            <p>Cost: {cost}</p>
+            <motion.h3 variants={fade}>{desc1}</motion.h3>
+            <motion.h3 variants={fade}>{desc2}</motion.h3>
+            <Hide>
+              <motion.p variants={ySlide}>
+                <FontAwesomeIcon className="icon" icon={faCalendar} /> {date}
+              </motion.p>
+            </Hide>
+            <Hide>
+              <motion.p variants={ySlide}>
+                <FontAwesomeIcon className="icon" icon={faMapMarkerAlt} />{" "}
+                {location}
+              </motion.p>
+            </Hide>
+            <Hide>
+              <motion.p variants={ySlide}>
+                <FontAwesomeIcon className="icon" icon={faDollarSign} /> {cost}
+              </motion.p>
+            </Hide>
           </div>
           <div className="image">
-            <img src={image} alt={name} />
+            <motion.img variants={noDelayFade} src={image} alt={name} />
           </div>
         </div>
       </div>
@@ -46,6 +71,11 @@ const StyledEvent = styled(motion.div)`
   .stuff {
     margin-top: 6rem;
   }
+  .title {
+    h1 {
+      color: #f55673;
+    }
+  }
   .content {
     display: flex;
     .text {
@@ -53,6 +83,11 @@ const StyledEvent = styled(motion.div)`
       flex-direction: column;
       justify-content: space-around;
       align-items: flex-start;
+      .icon {
+        font-size: 3rem;
+        margin: 0rem 1rem 0rem 0rem;
+        color: #0065f3;
+      }
     }
     .image {
       img {
@@ -62,6 +97,10 @@ const StyledEvent = styled(motion.div)`
       }
     }
   }
+`;
+
+const Hide = styled.div`
+  overflow: hidden;
 `;
 
 export default EventDetails;
