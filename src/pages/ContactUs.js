@@ -14,7 +14,11 @@ const ContactUs = () => {
       animate="show"
       exit="exit"
     >
-      <img className="background" src={contactImg} alt="" />
+      <img
+        className="background"
+        src={contactImg}
+        alt="contact-backgroundimg"
+      />
       <div className="title">
         <h2>We'd Love To Hear From You</h2>
       </div>
