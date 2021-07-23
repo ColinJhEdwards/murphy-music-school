@@ -3,10 +3,17 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import contactImg from "../images/display/contact.jpg";
 import ContactForm from "../components/Form";
+import { pageAnimation } from "../animations";
 
 const ContactUs = () => {
   return (
-    <StyledContact className="contactUs">
+    <StyledContact
+      className="contactUs"
+      variants={pageAnimation}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+    >
       <img className="background" src={contactImg} alt="" />
       <div className="title">
         <h2>We'd Love To Hear From You</h2>
