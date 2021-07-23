@@ -46,6 +46,7 @@ const TeacherSection = styled(motion.section)`
   margin: auto;
   h1 {
     margin-top: 6rem;
+    margin-bottom: 2rem;
     color: white;
     text-shadow: 1px 1px 4px black;
     font-size: 5rem;
