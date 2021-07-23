@@ -17,7 +17,7 @@ const eventsData = () => {
       thumb: jamThumb,
       image: jam,
       date: "Every Friday night from 7pm-9pm!",
-      location: "Murphy's Music School - Concert Hall C",
+      location: "Murphy's Music School - Concert Hall KK1050",
       cost: "Current Students: Free, Non-students: $5.00",
     },
     {
@@ -43,7 +43,7 @@ const eventsData = () => {
       thumb: concertThumb,
       image: concert,
       date: "Every Wednesday night from 7pm-9pm!",
-      location: "Murphy's Music School, Concert Hall A",
+      location: "Murphy's Music School, Concert Hall M1072",
       cost: "Current Students: Free, Non-students: $5.00",
     },
   ];
