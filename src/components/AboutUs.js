@@ -23,6 +23,7 @@ const AboutUs = () => {
       initial="hidden"
       ref={element}
     >
+      <div className="wall"></div>
       <div className="text">
         <h1>Murphy's Music School</h1>
         <p>
@@ -78,17 +79,27 @@ const StyledUs = styled(motion.div)`
   width: 80%;
   margin: auto;
   margin-top: 2rem;
+  position: relative;
+  .wall {
+    background: #5f6366;
+    position: absolute;
+    top: 0;
+    transform: translate(60px, 120px);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
   .text {
     width: 50%;
 
     h1 {
       font-size: 6rem;
-      text-shadow: 1px 1px 4px black;
+      text-shadow: 1px 5px 10px black;
     }
     p {
       margin: 2rem 0rem;
       font-size: 1.3rem;
-      text-shadow: 1px 1px 4px black;
+      text-shadow: 1px 5px 10px black;
     }
   }
   .image {
@@ -122,7 +133,7 @@ const StyledUs = styled(motion.div)`
       .icon {
         font-size: 5rem;
         color: #0065f3;
-        text-shadow: 1px 1px 4px black;
+        filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.5));
       }
     }
   }
