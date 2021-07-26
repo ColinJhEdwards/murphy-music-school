@@ -5,11 +5,58 @@ import { motion } from "framer-motion";
 const ContactForm = () => {
   return (
     <StyledForm>
-      <h2>Form</h2>
+      <h3>
+        Fill out our form to recieve more detailed information of our courses!
+      </h3>
+      <form>
+        <label htmlFor="fullName">Full Name</label>
+        <input type="text" id="FullName" placeholder="Full Name" required />
+        <label htmlFor="email">Email</label>
+        <input type="email" id="email" placeholder="Email" required />
+        <label htmlFor="Phone">Phone</label>
+        <input type="text" id="Phone" placeholder="Phone" required />
+        <label htmlFor="instrument">Instrument</label>
+        <select name="instrument" id="instrument">
+          <option value="na">N/A</option>
+          <option value="piano">Piano</option>
+          <option value="guitar">Guitar</option>
+          <option value="bass">Bass</option>
+          <option value="drums">Drums</option>
+          <option value="brass">Brass</option>
+          <option value="voice">Voice</option>
+          <option value="choir">Choir</option>
+          <option value="band">Band</option>
+          <option value="orchestra">Orchestra</option>
+        </select>
+        <button>Submit</button>
+      </form>
     </StyledForm>
   );
 };
 
-const StyledForm = styled(motion.div)``;
+const StyledForm = styled(motion.div)`
+  background: #474545;
+  border-radius: 5px;
+  padding: 2rem;
+  h3 {
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    label {
+      text-shadow: 2px 2px 4px black;
+    }
+    input,
+    select {
+      padding: 1rem;
+      border-radius: 5px;
+      margin: 1rem 0rem;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+      border: none;
+    }
+  }
+`;
 
 export default ContactForm;

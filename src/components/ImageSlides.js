@@ -52,7 +52,7 @@ const StyledCar = styled(motion.div)`
   margin: auto;
   h3,
   p {
-    padding: 5rem 0rem;
+    padding: 3rem 0rem;
     width: 40%;
     border: solid 3px white;
     margin: auto;

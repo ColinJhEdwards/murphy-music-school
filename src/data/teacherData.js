@@ -24,9 +24,9 @@ export const Teachers = () => {
       id: 2,
       name: "Nick Nordstrom",
       description1:
-        "Nick, a retired lumberjack, found his passion for the bass at a late age but put the entirety of his effort into mastering the instrument. His bass is even made of wood as an homage to his past life.",
+        "Nick, after owning his own lumberjack company, found his passion for the bass at a late age but put the entirety of his effort into mastering the instrument. His bass is even made of wood as an homage to his past life.",
       description2:
-        "After two years of practicing Nick explained to his friends and family that he will be embarking on a retreat into nature for the next five years where he will do nothing but practice bass. Upon his return Nick was capable of what most bass players would claim to be impossible and could playing the grooviest of base lines. He was later recruited into the famous band Tegratree and now teaches alongside his fellow band members.",
+        "After two years of practicing Nick explained to his friends and family that he would embark on a retreat into nature for the next five years where he will do nothing but practice bass. Upon his return Nick was capable of what most bass players would claim to be impossible and could play the grooviest of base lines. He was later recruited into the famous band Tegratree and now teaches alongside his fellow band members.",
       image: nick,
       instrument: "Bass",
       hobbies: "Motorcycles, Videography",

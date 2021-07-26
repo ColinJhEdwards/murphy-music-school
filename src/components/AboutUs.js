@@ -81,25 +81,27 @@ const StyledUs = styled(motion.div)`
   margin-top: 2rem;
   position: relative;
   .wall {
-    background: #5f6366;
+    background: #3e3e3f;
     position: absolute;
     top: 0;
     transform: translate(60px, 120px);
     width: 100%;
     height: 100%;
     z-index: -1;
+    border-radius: 5px;
   }
   .text {
     width: 50%;
 
     h1 {
       font-size: 6rem;
-      text-shadow: 1px 5px 10px black;
+      text-shadow: 3px 3px 10px black;
+      color: #f55673;
     }
     p {
       margin: 2rem 0rem;
       font-size: 1.3rem;
-      text-shadow: 1px 5px 10px black;
+      text-shadow: 3px 3px 10px black;
     }
   }
   .image {

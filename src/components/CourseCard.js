@@ -15,7 +15,7 @@ const CourseCard = ({ img, title, description, id }) => {
       initial="hidden"
       ref={element}
     >
-      <StyledCard>
+      <StyledCard variants={fade}>
         <h2>{title}</h2>
 
         <img src={img} alt={title} />
@@ -83,7 +83,7 @@ const StyledCard = styled(motion.div)`
     color: white;
     transition: all ease 0.5s;
     &:hover {
-      background: #04395f;
+      background: #0400d4;
     }
   }
   @media (max-width: 1300px) {
