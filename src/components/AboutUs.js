@@ -82,6 +82,7 @@ const StyledUs = styled(motion.div)`
   position: relative;
   .wall {
     background: #3e3e3f;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     transform: translate(60px, 120px);

@@ -6,8 +6,9 @@ const ContactForm = () => {
   return (
     <StyledForm>
       <h3>
-        Fill out our form to recieve more detailed information of our courses!
+        Fill out our form to recieve more detailed information on our courses!
       </h3>
+      <p>We promise we won't spam your email.</p>
       <form>
         <label htmlFor="fullName">Full Name</label>
         <input type="text" id="FullName" placeholder="Full Name" required />
@@ -38,7 +39,8 @@ const StyledForm = styled(motion.div)`
   background: #474545;
   border-radius: 5px;
   padding: 2rem;
-  h3 {
+  h3,
+  p {
     text-align: center;
     text-shadow: 2px 2px 4px black;
   }
@@ -49,12 +51,17 @@ const StyledForm = styled(motion.div)`
       text-shadow: 2px 2px 4px black;
     }
     input,
-    select {
+    select,
+    button {
       padding: 1rem;
       border-radius: 5px;
       margin: 1rem 0rem;
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
       border: none;
+    }
+    button {
+      background: #0065f3;
+      font-size: 2rem;
     }
   }
 `;

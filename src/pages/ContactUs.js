@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 import contactImg from "../images/display/contact.jpg";
 import ContactForm from "../components/Form";
-import { pageAnimation } from "../animations";
+import { fade, pageAnimation } from "../animations";
 
 const ContactUs = () => {
   return (
@@ -14,13 +14,14 @@ const ContactUs = () => {
       animate="show"
       exit="exit"
     >
-      <img
+      <motion.img
+        variants={fade}
         className="background"
         src={contactImg}
         alt="contact-backgroundimg"
       />
       <div className="title">
-        <h2>We'd Love To Hear From You</h2>
+        <motion.h2 variants={fade}>We'd Love To Hear From You</motion.h2>
       </div>
       <div className="text">
         <h2>Your first lesson is free!</h2>
@@ -29,8 +30,8 @@ const ContactUs = () => {
         <div className="info">
           <h1>Contact Info</h1>
           <h2>Address</h2>
-          <h2>Phone</h2>
-          <h2>Email</h2>
+          <h2>Phone: 360-555-0995</h2>
+          <h2>Email: contact@mms.org</h2>
           <h1>FAQ's</h1>
         </div>
         <div className="form">
@@ -78,7 +79,20 @@ const StyledContact = styled(motion.section)`
     .form {
       width: 50%;
     }
+    .info {
+      h1 {
+        margin: 1rem 0rem;
+        font-size: 5rem;
+      }
+      h2 {
+        margin: 1rem 0rem;
+      }
+    }
   }
+`;
+
+const Line = styled(motion.div)`
+  background: #f55673;
 `;
 
 export default ContactUs;
