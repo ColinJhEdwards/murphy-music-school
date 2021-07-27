@@ -4,6 +4,12 @@ import { motion } from "framer-motion";
 import contactImg from "../images/display/contact.jpg";
 import ContactForm from "../components/Form";
 import { fade, pageAnimation } from "../animations";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelope,
+  faPhone,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 const ContactUs = () => {
   return (
@@ -24,20 +30,28 @@ const ContactUs = () => {
         <motion.h2 variants={fade}>We'd Love To Hear From You</motion.h2>
       </div>
       <div className="text">
-        <h2>Your first lesson is free!</h2>
+        <motion.h2 variants={fade}>Your first lesson is free!</motion.h2>
       </div>
-      <div className="contactInfo">
+      <motion.div variants={fade} className="contactInfo">
         <div className="info">
           <h1>Contact Info</h1>
-          <h2>Address</h2>
-          <h2>Phone: 360-555-0995</h2>
-          <h2>Email: contact@mms.org</h2>
-          <h1>FAQ's</h1>
+          <Line></Line>
+          <h2>
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />: 17700 NE
+            76th St, Redmond, WA 98052{" "}
+          </h2>
+          <h2>
+            <FontAwesomeIcon icon={faPhone} className="icon" />: 360-555-0995
+          </h2>
+          <h2>
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />:
+            contact@mms.org
+          </h2>
         </div>
         <div className="form">
           <ContactForm />
         </div>
-      </div>
+      </motion.div>
     </StyledContact>
   );
 };
@@ -73,19 +87,30 @@ const StyledContact = styled(motion.section)`
   }
   .contactInfo {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 90%;
     margin: auto;
+    flex-wrap: wrap;
     .info,
     .form {
-      width: 50%;
+      width: 850px;
+      margin: 2rem 0rem;
     }
     .info {
+      align-self: flex-start;
       h1 {
         margin: 1rem 0rem;
         font-size: 5rem;
+        text-shadow: 1px 1px 4px black;
       }
       h2 {
-        margin: 1rem 0rem;
+        margin: 4rem 0rem;
+      }
+      .icon {
+        color: #0065f3;
+        font-size: 3rem;
+        margin: 0rem 1rem;
       }
     }
   }
@@ -93,6 +118,8 @@ const StyledContact = styled(motion.section)`
 
 const Line = styled(motion.div)`
   background: #f55673;
+  width: 60%;
+  height: 3px;
 `;
 
 export default ContactUs;
