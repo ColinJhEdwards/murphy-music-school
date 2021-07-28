@@ -11,6 +11,7 @@ import CourseDetail from "./components/CourseDetail";
 import { CourseData } from "./data/courseData";
 import eventsData from "./data/eventsData";
 import EventDetails from "./components/EventDetails";
+import Footer from "./components/Footer";
 
 function App() {
   const [courses, setCourses] = useState(CourseData);
@@ -68,6 +69,7 @@ function App() {
           </Route>
         </Switch>
       </AnimatePresence>
+      <Footer />
     </div>
   );
 }

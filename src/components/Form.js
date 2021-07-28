@@ -59,6 +59,9 @@ const StyledForm = styled(motion.div)`
       box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
       border: none;
     }
+    select {
+      cursor: pointer;
+    }
     button {
       background: #0065f3;
       font-size: 2rem;
