@@ -49,16 +49,24 @@ const ContactUs = () => {
           </h2>
           <div className="social">
             <div className="media">
-              <i class="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
             </div>
             <div className="media">
-              <i class="fab fa-twitter"></i>
+              <a href="https://twitter.com/home" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
             </div>
             <div className="media">
-              <i class="fab fa-youtube"></i>
+              <a href="https://www.youtube.com/" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
             </div>
             <div className="media">
-              <i class="fab fa-facebook"></i>
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -134,8 +142,10 @@ const StyledContact = styled(motion.section)`
           cursor: pointer;
           transition: all ease 0.5s;
           &:hover {
-            color: #f55673;
-            filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.5));
+            filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, 0.5));
+            a {
+              color: #f55673;
+            }
           }
         }
       }
