@@ -37,16 +37,30 @@ const ContactUs = () => {
           <h1>Contact Info</h1>
           <Line></Line>
           <h2>
-            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />: 17700 NE
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> 17700 NE
             76th St, Redmond, WA 98052{" "}
           </h2>
           <h2>
-            <FontAwesomeIcon icon={faPhone} className="icon" />: 360-555-0995
+            <FontAwesomeIcon icon={faPhone} className="icon" /> 360-555-0995
           </h2>
           <h2>
-            <FontAwesomeIcon icon={faEnvelope} className="icon" />:
+            <FontAwesomeIcon icon={faEnvelope} className="icon" />
             contact@mms.org
           </h2>
+          <div className="social">
+            <div className="media">
+              <i class="fab fa-instagram"></i>
+            </div>
+            <div className="media">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div className="media">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <div className="media">
+              <i class="fab fa-facebook"></i>
+            </div>
+          </div>
         </div>
         <div className="form">
           <ContactForm />
@@ -111,6 +125,19 @@ const StyledContact = styled(motion.section)`
         color: #0065f3;
         font-size: 3rem;
         margin: 0rem 1rem;
+      }
+      .social {
+        display: flex;
+        .media {
+          font-size: 3rem;
+          margin: 0rem 2rem;
+          cursor: pointer;
+          transition: all ease 0.5s;
+          &:hover {
+            color: #f55673;
+            filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.5));
+          }
+        }
       }
     }
   }
