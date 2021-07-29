@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="contact">
-        <p>360-555-0995</p>
+        <p>719-266-2837</p>
         <p>contact@mms.org</p>
       </div>
       <h2>&copy; 2021 MURPHY'S MUSIC SCHOOL ALL RIGHTS RESERVED</h2>
@@ -45,6 +45,7 @@ const StyledFooter = styled.div`
     font-size: 1rem;
     margin: 1rem 0rem;
     text-shadow: 2px 2px 3px black;
+    text-align: center;
   }
   .contact {
     display: flex;
@@ -65,6 +66,13 @@ const StyledFooter = styled.div`
         a {
           color: #f55673;
         }
+      }
+    }
+  }
+  @media (max-width: 414px) {
+    .social {
+      .media {
+        margin: 1rem 1rem;
       }
     }
   }

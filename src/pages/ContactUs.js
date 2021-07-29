@@ -37,11 +37,11 @@ const ContactUs = () => {
           <h1>Contact Info</h1>
           <Line></Line>
           <h2>
-            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> 17700 NE
-            76th St, Redmond, WA 98052{" "}
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" />{" "}
+            <span>17700 NE 76th St, Redmond, WA 98052 </span>
           </h2>
           <h2>
-            <FontAwesomeIcon icon={faPhone} className="icon" /> 360-555-0995
+            <FontAwesomeIcon icon={faPhone} className="icon" /> 719-266-2837
           </h2>
           <h2>
             <FontAwesomeIcon icon={faEnvelope} className="icon" />
@@ -151,12 +151,44 @@ const StyledContact = styled(motion.section)`
       }
     }
   }
+  @media (max-width: 414px) {
+    .title {
+      h2 {
+        font-size: 3rem;
+        text-align: center;
+      }
+    }
+    .contactInfo {
+      .info {
+        h1 {
+          font-size: 3rem;
+          text-align: center;
+        }
+        h2 {
+          font-size: 1rem;
+          margin: 4rem 2rem;
+        }
+        span {
+        }
+        .social {
+          justify-content: center;
+          .media {
+            margin: 0rem 1rem;
+          }
+        }
+      }
+    }
+  }
 `;
 
 const Line = styled(motion.div)`
   background: #f55673;
   width: 60%;
   height: 3px;
+  @media (max-width: 414px) {
+    margin: auto;
+    width: 80%;
+  }
 `;
 
 export default ContactUs;

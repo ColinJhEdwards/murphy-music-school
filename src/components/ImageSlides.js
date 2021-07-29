@@ -70,6 +70,12 @@ const StyledCar = styled(motion.div)`
     height: 100vh;
     object-fit: cover;
   }
+  @media (max-width: 414px) {
+    h3,
+    p {
+      width: 90%;
+    }
+  }
 `;
 
 export default ImageSlides;

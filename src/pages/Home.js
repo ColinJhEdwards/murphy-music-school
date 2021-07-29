@@ -31,6 +31,9 @@ const Home = () => {
 const StyledHome = styled(motion.section)`
   min-height: 95vh;
   margin: auto;
+  .caro {
+    width: 100%;
+  }
 `;
 
 export default Home;

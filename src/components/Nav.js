@@ -100,6 +100,7 @@ const StyledNav = styled.div`
     }
     .link {
       background: #f55673;
+      box-shadow: 2px 2px 2px black;
       padding: 0.5rem;
       border-radius: 15px;
     }

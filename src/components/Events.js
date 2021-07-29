@@ -53,6 +53,15 @@ const StyledEvents = styled(motion.div)`
       justify-content: center;
     }
   }
+  @media (max-width: 414px) {
+    .title {
+      h1 {
+        font-size: 3rem;
+        width: 90%;
+        margin: auto;
+      }
+    }
+  }
 `;
 
 export default Events;

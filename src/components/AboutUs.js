@@ -122,6 +122,8 @@ const StyledUs = styled(motion.div)`
   }
   .icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     flex-wrap: wrap;
     .hold {
@@ -142,6 +144,34 @@ const StyledUs = styled(motion.div)`
         font-size: 5rem;
         color: #0065f3;
         filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, 0.5));
+      }
+    }
+  }
+  @media (max-width: 414px) {
+    .text {
+      width: 90%;
+      h1 {
+        font-size: 3rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+    .image {
+      img {
+        width: 90%;
+      }
+    }
+    .icons {
+      .hold {
+        p {
+          font-size: 1rem;
+          margin: 1rem;
+        }
+        .icon {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
       }
     }
   }
