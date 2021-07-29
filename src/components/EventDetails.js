@@ -8,6 +8,7 @@ import {
   faDollarSign,
 } from "@fortawesome/free-solid-svg-icons";
 import { pageAnimation, fade, ySlide, noDelayFade } from "../animations";
+import ScrollTop from "./ScrollTop";
 
 const EventDetails = ({
   d,
@@ -56,6 +57,7 @@ const EventDetails = ({
           </div>
         </div>
       </div>
+      <ScrollTop />
     </StyledEvent>
   );
 };

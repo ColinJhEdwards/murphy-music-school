@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import about from "../images/display/about.jpg";
 //scroll animation
-import { scrollReveal } from "../animations";
+import { scrollReveal, width } from "../animations";
 import { useScroll } from "./useScroll";
 
 const AboutUs = () => {
@@ -25,12 +25,19 @@ const AboutUs = () => {
     >
       <div className="wall"></div>
       <div className="text">
-        <h1>Murphy's Music School</h1>
+        <h1>Our Mission</h1>
+        <Line variants={width}></Line>
         <p>
-          Every day, we watch our students grow from beginner musicians to
-          confident and inspiring rock stars in their community. Murphy's Music
-          School strives to be more than just your local music school.
+          To bring our community together through the joys of music and provide
+          a quality music education.
         </p>
+      </div>
+      <div className="image">
+        <div className="image">
+          <img src={about} alt="aboutpageimage" />
+        </div>
+      </div>
+      <div className="text">
         <p>
           All of our lessons for kids, teens, and adults are designed to help
           students gain amazing musical proficiency, using a performance-based
@@ -38,14 +45,10 @@ const AboutUs = () => {
         </p>
         <p>
           This means the curriculum focuses on learning music concepts and
-          applying them in a live performance setting. Students lessons include
-          one weekly private music lesson and a weekly group rehearsel.
+          applying them in a live performance setting that we always encourage
+          the community to attend. Students lessons include one weekly private
+          music lesson and a weekly group rehearsel.
         </p>
-      </div>
-      <div className="image">
-        <div className="image">
-          <img src={about} alt="aboutpageimage" />
-        </div>
       </div>
       <div className="icons">
         <div className="hold">
@@ -75,6 +78,7 @@ const StyledUs = styled(motion.div)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
@@ -84,8 +88,7 @@ const StyledUs = styled(motion.div)`
     background: #3e3e3f;
     opacity: 0.5;
     position: absolute;
-    top: 0;
-    transform: translate(60px, 120px);
+
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -98,11 +101,13 @@ const StyledUs = styled(motion.div)`
       font-size: 6rem;
       text-shadow: 3px 3px 10px black;
       color: #f55673;
+      text-align: center;
     }
     p {
       margin: 2rem 0rem;
       font-size: 1.3rem;
       text-shadow: 3px 3px 10px black;
+      text-align: center;
     }
   }
   .image {
@@ -140,6 +145,13 @@ const StyledUs = styled(motion.div)`
       }
     }
   }
+`;
+
+const Line = styled(motion.div)`
+  height: 3px;
+  width: 100%;
+  background: #0065f3;
+  border-radius: 50px;
 `;
 
 export default AboutUs;
