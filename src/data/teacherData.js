@@ -73,7 +73,7 @@ export const Teachers = () => {
         "He is regarded as the leading authority on the literature for the tuba, releasing best sellers such as 'Mr. Tuba' and 'Honey, I can't find my tuba'. Shane is also one of the founding fathers of the Tubists Universal Brotherhood Association (T.U.B.A), an orginization dedicated to performers, teachers, and friends of the tuba. His love for the tuba reflects in his teaching, encouraging his students through philosophical wisdom. As Shane says, 'The tuba is the stepping stone to enlightenment, without it, I am lost'.",
       image: shane,
       instrument: "Tuba, Trumpet, Trombone, French Horn, Euphonium",
-      hobbies: "tbd",
+      hobbies: "Ice Sculptures, Ice Fishing",
     },
     {
       id: 7,

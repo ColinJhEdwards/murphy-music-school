@@ -141,7 +141,7 @@ const StyledUs = styled(motion.div)`
       .icon {
         font-size: 5rem;
         color: #0065f3;
-        filter: drop-shadow(10px 10px 1px rgba(0, 0, 0, 0.5));
+        filter: drop-shadow(10px 10px 2px rgba(0, 0, 0, 0.5));
       }
     }
   }

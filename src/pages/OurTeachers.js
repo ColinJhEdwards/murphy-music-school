@@ -56,6 +56,7 @@ const TeacherSection = styled(motion.section)`
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 2rem 0rem;
   }
 `;
 export default OurTeachers;
