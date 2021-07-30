@@ -81,11 +81,15 @@ const StyledEvent = styled(motion.div)`
   }
   .content {
     display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-wrap: wrap;
     .text {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: flex-start;
+      width: 1000px;
       .icon {
         font-size: 3rem;
         margin: 0rem 1rem 0rem 0rem;
@@ -93,10 +97,36 @@ const StyledEvent = styled(motion.div)`
       }
     }
     .image {
+      width: 450px;
       img {
         width: 100%;
         border-radius: 15px;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+  @media (max-width: 1814px) {
+    .title {
+      h1 {
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+    }
+    .content {
+      .text {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        h3 {
+          margin: 2rem 0rem;
+          font-size: 1rem;
+        }
+      }
+      .image {
+        width: 100%;
+        margin: 2rem 0rem;
       }
     }
   }
