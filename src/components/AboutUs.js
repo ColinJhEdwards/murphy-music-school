@@ -28,8 +28,8 @@ const AboutUs = () => {
         <h1>Our Mission</h1>
         <Line variants={width}></Line>
         <p>
-          To bring our community together through the joys of music and provide
-          a quality music education.
+          To bring our community together through the joys of music by providing
+          a quality music education to students of all ages and skill levels.
         </p>
       </div>
       <div className="image">

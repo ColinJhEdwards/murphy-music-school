@@ -13,7 +13,7 @@ export const Teachers = () => {
       id: 1,
       name: "Kylie Murphy",
       description1:
-        "Kylie, the founder of Murphy's Music School, is a lover of music and snails. Her love for music and the people around her are the life force of Murphy's.",
+        "Kylie, the founder of Murphy's Music School, is a lover of music and snails. Her love for music and the people around her is the life force of Murphy's.",
       description2:
         " After discovering a passion for music at a young age, Kylie dove into the world of musicianship head first and learned how to play multiple instruments including the piano, bassoon, guitar, ukulele, saxaphone, and anything else she could get her hands on. Later in life Kylie eventually put together her first band 'Tegratree' where she played hundreds of succesful shows. After living the exciting lifestyle of a rockstar Kylie decided to settle down and join the Seattle Symphony where she expressed her true passion, the bassoon. In her free time Kylie runs her own music school and consistantly encourages her community to experience the joys of music.",
       image: kylie,
