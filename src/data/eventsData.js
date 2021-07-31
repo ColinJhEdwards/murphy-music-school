@@ -24,7 +24,7 @@ const eventsData = () => {
       id: 2,
       name: "Rooftop Concert",
       description1:
-        "Hosted by Luca, every month we host a performance on the very roof of Murphy's Music School. One of the many benefits of attending Murphy's Music School is the opportunity to form your own band with your fellow students and we love to show off the bands that have been formed at our school.",
+        "Hosted by Luca, every month we host a performance on the very roof of Murphy's Music School. One of the many benefits of attending Murphy's is the opportunity to form your own band with your fellow students and we love to show off the bands that have been formed at our school.",
       description2: `Bring your friends, bring your family, sit back and enjoy the likes of A Band Named Bob, 45 Second Neighbors, The Moscow Gentlemen, Crab Rangoon Cometh Forth, and Scooter Duders. We promise you won't be disappointed`,
       thumb: roofThumb,
       image: roof,

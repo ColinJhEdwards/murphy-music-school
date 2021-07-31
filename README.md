@@ -1,4 +1,4 @@
-# Sweep
+# Murphy's Music School
 
 ## Table Of Contents
 
