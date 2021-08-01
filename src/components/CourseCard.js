@@ -109,9 +109,24 @@ const StyledCard = styled(motion.div)`
       font-size: 2rem;
     }
     img {
-      position: static;
-      filter: none;
-      width: 90%;
+      position: absolute;
+
+      width: 100%;
+    }
+  }
+  @media (max-width: 414px) {
+    box-shadow: none;
+    h2,
+    p {
+      margin: 1rem 0rem;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+    button {
+      margin: 0rem 0rem 1rem 0rem;
+      font-size: 0.7rem;
+      padding: 1rem 2rem;
     }
   }
 `;
@@ -124,6 +139,7 @@ const Hide = styled(motion.div)`
   margin: 2rem 0rem;
   @media (max-width: 850px) {
     width: 90%;
+    box-shadow: none;
   }
 `;
 
