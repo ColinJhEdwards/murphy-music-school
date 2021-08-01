@@ -13,7 +13,7 @@ const NavStuff = () => {
       <Navbar bg="none" expand="lg" className="noov navbar-dark">
         <Navbar.Brand className="text logo">
           <Logo2 />
-          Murphy's Music School
+          <span>Murphy's Music School</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -77,6 +77,8 @@ const StyledNav = styled.div`
   }
   .logo {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
   }
   .relative {
@@ -103,6 +105,11 @@ const StyledNav = styled.div`
       box-shadow: 2px 2px 2px black;
       padding: 0.5rem;
       border-radius: 15px;
+    }
+  }
+  @media (max-width: 320px) {
+    span {
+      font-size: 0.9rem;
     }
   }
 `;
