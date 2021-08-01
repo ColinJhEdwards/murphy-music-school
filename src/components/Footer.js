@@ -5,23 +5,23 @@ const Footer = () => {
     <StyledFooter className="footer">
       <div className="social">
         <div className="media">
-          <a href="https://www.instagram.com/" target="_blank">
-            <i class="fab fa-instagram"></i>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+            <i className="fab fa-instagram"></i>
           </a>
         </div>
         <div className="media">
-          <a href="https://twitter.com/home" target="_blank">
-            <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/home" target="_blank" rel="noreferrer">
+            <i className="fab fa-twitter"></i>
           </a>
         </div>
         <div className="media">
-          <a href="https://www.youtube.com/" target="_blank">
-            <i class="fab fa-youtube"></i>
+          <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
+            <i className="fab fa-youtube"></i>
           </a>
         </div>
         <div className="media">
-          <a href="https://www.facebook.com/" target="_blank">
-            <i class="fab fa-facebook"></i>
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
+            <i className="fab fa-facebook"></i>
           </a>
         </div>
       </div>

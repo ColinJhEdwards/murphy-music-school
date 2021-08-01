@@ -23,7 +23,7 @@ const Events = () => {
       </div>
       <div className="cards">
         {events.map((ev) => (
-          <EventCard name={ev.name} img={ev.thumb} id={ev.id} />
+          <EventCard name={ev.name} img={ev.thumb} id={ev.id} key={ev.id} />
         ))}
       </div>
     </StyledEvents>

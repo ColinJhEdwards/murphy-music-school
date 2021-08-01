@@ -49,22 +49,38 @@ const ContactUs = () => {
           </h2>
           <div className="social">
             <div className="media">
-              <a href="https://www.instagram.com/" target="_blank">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-instagram"></i>
               </a>
             </div>
             <div className="media">
-              <a href="https://twitter.com/home" target="_blank">
+              <a
+                href="https://twitter.com/home"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-twitter"></i>
               </a>
             </div>
             <div className="media">
-              <a href="https://www.youtube.com/" target="_blank">
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-youtube"></i>
               </a>
             </div>
             <div className="media">
-              <a href="https://www.facebook.com/" target="_blank">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="fab fa-facebook"></i>
               </a>
             </div>

@@ -4,8 +4,6 @@ import { motion } from "framer-motion";
 import { CourseData } from "../data/courseData";
 import CourseCard from "../components/CourseCard";
 import { pageAnimation } from "../animations";
-import note1 from "../images/display/note1.png";
-import note2 from "../images/display/note2.png";
 
 const Courses = () => {
   const [courses, setCourses] = useState(CourseData);
