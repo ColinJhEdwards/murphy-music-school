@@ -96,7 +96,7 @@ const StyledNav = styled.div`
       color: #0065f3;
     }
   }
-  @media (max-width: 500px) {
+  @media (max-width: 995px) {
     .logo {
       font-size: 1.2rem;
     }
@@ -121,7 +121,7 @@ const Underline = styled(motion.div)`
   border-radius: 25px;
   position: absolute;
   left: 0;
-  @media (max-width: 500px) {
+  @media (max-width: 995px) {
     background: none;
   }
 `;
