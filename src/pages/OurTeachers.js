@@ -50,6 +50,7 @@ const TeacherSection = styled(motion.section)`
     color: white;
     text-shadow: 1px 1px 4px black;
     font-size: 5rem;
+    text-align: center;
   }
   .teachList {
     display: flex;

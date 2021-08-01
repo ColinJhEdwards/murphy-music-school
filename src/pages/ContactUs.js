@@ -102,6 +102,7 @@ const StyledContact = styled(motion.section)`
       color: white;
       text-shadow: 1px 1px 4px black;
       font-size: 5rem;
+      text-align: center;
     }
   }
   .text {
@@ -133,6 +134,7 @@ const StyledContact = styled(motion.section)`
         color: #0065f3;
         font-size: 3rem;
         margin: 0rem 1rem;
+        filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.5));
       }
       .social {
         display: flex;
