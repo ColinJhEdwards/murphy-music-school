@@ -5,7 +5,7 @@ const Redirect = () => {
   return (
     <div
       class="lds-roller"
-      onLoad={window.location.replace("https://colinjhedwards.github.io/")}
+      onLoad={window.location.href("https://colinjhedwards.github.io/")}
     >
       <div></div>
       <div></div>
