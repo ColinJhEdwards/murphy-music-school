@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/murphy-music-school/static/js/main.67ac150a.chunk.js",
-    "main.js.map": "/murphy-music-school/static/js/main.67ac150a.chunk.js.map",
+    "main.js": "/murphy-music-school/static/js/main.621e9a25.chunk.js",
+    "main.js.map": "/murphy-music-school/static/js/main.621e9a25.chunk.js.map",
     "runtime-main.js": "/murphy-music-school/static/js/runtime-main.1be674ed.js",
     "runtime-main.js.map": "/murphy-music-school/static/js/runtime-main.1be674ed.js.map",
     "static/css/2.d45d6843.chunk.css": "/murphy-music-school/static/css/2.d45d6843.chunk.css",
@@ -74,6 +74,6 @@
     "static/js/runtime-main.1be674ed.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.e8396707.chunk.js",
-    "static/js/main.67ac150a.chunk.js"
+    "static/js/main.621e9a25.chunk.js"
   ]
 }
