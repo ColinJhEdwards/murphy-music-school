@@ -12,6 +12,7 @@ import { CourseData } from "./data/courseData";
 import eventsData from "./data/eventsData";
 import EventDetails from "./components/EventDetails";
 import Footer from "./components/Footer";
+import Redirect from "./components/Redirect";
 
 function App() {
   const [courses, setCourses] = useState(CourseData);
@@ -66,6 +67,9 @@ function App() {
           </Route>
           <Route path="/contactus">
             <ContactUs />
+          </Route>
+          <Route path="/murphy-music-school">
+            <Redirect />
           </Route>
         </Switch>
       </AnimatePresence>
