@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/murphy-music-school/static/js/main.c92717cb.chunk.js",
-    "main.js.map": "/murphy-music-school/static/js/main.c92717cb.chunk.js.map",
+    "main.js": "/murphy-music-school/static/js/main.9d5b441c.chunk.js",
+    "main.js.map": "/murphy-music-school/static/js/main.9d5b441c.chunk.js.map",
     "runtime-main.js": "/murphy-music-school/static/js/runtime-main.1be674ed.js",
     "runtime-main.js.map": "/murphy-music-school/static/js/runtime-main.1be674ed.js.map",
     "static/css/2.d45d6843.chunk.css": "/murphy-music-school/static/css/2.d45d6843.chunk.css",
-    "static/js/2.21c9551f.chunk.js": "/murphy-music-school/static/js/2.21c9551f.chunk.js",
-    "static/js/2.21c9551f.chunk.js.map": "/murphy-music-school/static/js/2.21c9551f.chunk.js.map",
+    "static/js/2.2f0d1944.chunk.js": "/murphy-music-school/static/js/2.2f0d1944.chunk.js",
+    "static/js/2.2f0d1944.chunk.js.map": "/murphy-music-school/static/js/2.2f0d1944.chunk.js.map",
     "static/js/3.ac3d93e1.chunk.js": "/murphy-music-school/static/js/3.ac3d93e1.chunk.js",
     "static/js/3.ac3d93e1.chunk.js.map": "/murphy-music-school/static/js/3.ac3d93e1.chunk.js.map",
     "index.html": "/murphy-music-school/index.html",
     "static/css/2.d45d6843.chunk.css.map": "/murphy-music-school/static/css/2.d45d6843.chunk.css.map",
-    "static/js/2.21c9551f.chunk.js.LICENSE.txt": "/murphy-music-school/static/js/2.21c9551f.chunk.js.LICENSE.txt",
+    "static/js/2.2f0d1944.chunk.js.LICENSE.txt": "/murphy-music-school/static/js/2.2f0d1944.chunk.js.LICENSE.txt",
     "static/media/about.af0c894a.jpg": "/murphy-music-school/static/media/about.af0c894a.jpg",
     "static/media/band2.321f62d7.jpg": "/murphy-music-school/static/media/band2.321f62d7.jpg",
     "static/media/band3.53bfd51a.jpg": "/murphy-music-school/static/media/band3.53bfd51a.jpg",
@@ -73,7 +73,7 @@
   "entrypoints": [
     "static/js/runtime-main.1be674ed.js",
     "static/css/2.d45d6843.chunk.css",
-    "static/js/2.21c9551f.chunk.js",
-    "static/js/main.c92717cb.chunk.js"
+    "static/js/2.2f0d1944.chunk.js",
+    "static/js/main.9d5b441c.chunk.js"
   ]
 }
