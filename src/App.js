@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
@@ -18,10 +18,11 @@ function App() {
   const [courses, setCourses] = useState(CourseData);
   const [events, setEvents] = useState(eventsData);
   const location = useLocation();
+  const homeNav = useRef();
   return (
     <div className="App">
       <GlobalStyle />
-      <NavStuff />
+      <NavStuff homeNav={homeNav} />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
           <Route path="/" exact>
@@ -69,7 +70,7 @@ function App() {
             <ContactUs />
           </Route>
           <Route path="/murphy-music-school">
-            <Redirect />
+            <Redirect homeNav={homeNav} />
           </Route>
         </Switch>
       </AnimatePresence>

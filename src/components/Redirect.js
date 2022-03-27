@@ -1,12 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-const Redirect = () => {
+const Redirect = ({ homeNav }) => {
   return (
-    <div
-      class="lds-roller"
-      onLoad={window.location.href("https://colinjhedwards.github.io/")}
-    >
+    <div class="lds-roller" onLoad={homeNav.click()}>
       <div></div>
       <div></div>
       <div></div>
