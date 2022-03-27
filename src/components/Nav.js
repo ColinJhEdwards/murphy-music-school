@@ -8,6 +8,7 @@ import Logo2 from "./Logo2";
 
 const NavStuff = ({ homeNav }) => {
   const { pathname } = useLocation();
+  console.log(homeNav);
   return (
     <StyledNav>
       <Navbar bg="none" expand="lg" className="noov navbar-dark">

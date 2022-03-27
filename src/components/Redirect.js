@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Redirect = ({ homeNav }) => {
   return (
-    <div class="lds-roller" onLoad={homeNav.click()}>
+    <div class="lds-roller" onLoad={homeNav.current.click()}>
       <div></div>
       <div></div>
       <div></div>
