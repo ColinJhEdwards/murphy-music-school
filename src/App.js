@@ -18,7 +18,7 @@ function App() {
   const [courses, setCourses] = useState(CourseData);
   const [events, setEvents] = useState(eventsData);
   const location = useLocation();
-  const homeNav = useRef();
+  const homeNav = useRef(null);
   return (
     <div className="App">
       <GlobalStyle />
