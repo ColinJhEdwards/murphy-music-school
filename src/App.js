@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
       <GlobalStyle />
-      <NavStuff homeNav={homeNav} />
+      <NavStuff />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
           <Route path="/" exact>
