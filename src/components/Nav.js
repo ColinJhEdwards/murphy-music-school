@@ -6,7 +6,7 @@ import { useLocation } from "react-router";
 import { motion } from "framer-motion";
 import Logo2 from "./Logo2";
 
-const NavStuff = ({ homeNav }) => {
+const NavStuff = () => {
   const { pathname } = useLocation();
   return (
     <StyledNav>
@@ -19,7 +19,7 @@ const NavStuff = ({ homeNav }) => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link className="relative">
-              <Link to="/" className="text link" ref={homeNav}>
+              <Link to="/" className="text link">
                 Home
               </Link>
               <Underline

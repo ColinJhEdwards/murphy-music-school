@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Courses from "./pages/Courses";
@@ -12,13 +12,12 @@ import { CourseData } from "./data/courseData";
 import eventsData from "./data/eventsData";
 import EventDetails from "./components/EventDetails";
 import Footer from "./components/Footer";
-import Redirect from "./components/Redirect";
 
 function App() {
   const [courses, setCourses] = useState(CourseData);
   const [events, setEvents] = useState(eventsData);
   const location = useLocation();
-  const homeNav = useRef(null);
+
   return (
     <div className="App">
       <GlobalStyle />
@@ -68,9 +67,6 @@ function App() {
           </Route>
           <Route path="/contactus">
             <ContactUs />
-          </Route>
-          <Route path="/murphy-music-school">
-            <Redirect homeNav={homeNav} />
           </Route>
         </Switch>
       </AnimatePresence>
