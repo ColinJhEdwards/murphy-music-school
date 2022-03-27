@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/murphy-music-school/static/js/main.fefcb548.chunk.js",
-    "main.js.map": "/murphy-music-school/static/js/main.fefcb548.chunk.js.map",
+    "main.js": "/murphy-music-school/static/js/main.0ecde8a6.chunk.js",
+    "main.js.map": "/murphy-music-school/static/js/main.0ecde8a6.chunk.js.map",
     "runtime-main.js": "/murphy-music-school/static/js/runtime-main.1be674ed.js",
     "runtime-main.js.map": "/murphy-music-school/static/js/runtime-main.1be674ed.js.map",
     "static/css/2.d45d6843.chunk.css": "/murphy-music-school/static/css/2.d45d6843.chunk.css",
@@ -49,7 +49,6 @@
     "static/media/luca.df45cf2a.jpg": "/murphy-music-school/static/media/luca.df45cf2a.jpg",
     "static/media/michelle.4b6ebae7.jpg": "/murphy-music-school/static/media/michelle.4b6ebae7.jpg",
     "static/media/nick.c37f5378.jpg": "/murphy-music-school/static/media/nick.c37f5378.jpg",
-    "static/media/note1.40dc31ff.png": "/murphy-music-school/static/media/note1.40dc31ff.png",
     "static/media/olivia.59672de7.jpg": "/murphy-music-school/static/media/olivia.59672de7.jpg",
     "static/media/orch2.44d2e36e.jpg": "/murphy-music-school/static/media/orch2.44d2e36e.jpg",
     "static/media/orch3.0478d783.jpg": "/murphy-music-school/static/media/orch3.0478d783.jpg",
@@ -75,6 +74,6 @@
     "static/js/runtime-main.1be674ed.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.21c9551f.chunk.js",
-    "static/js/main.fefcb548.chunk.js"
+    "static/js/main.0ecde8a6.chunk.js"
   ]
 }
