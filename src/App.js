@@ -23,7 +23,7 @@ function App() {
       <NavStuff />
       <AnimatePresence exitBeforeEnter>
         <Switch location={location} key={location.key}>
-          <Route path="/home" exact>
+          <Route path="/" exact>
             <Home />
           </Route>
           {events.map((ev) => (
