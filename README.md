@@ -15,7 +15,7 @@ Murphy's Music School's mission is to bring their community together through the
 
 ## Deployed-Application
 
-https://murphys-music-school.herokuapp.com/
+https://colinjhedwards.github.io/murphy-music-school/
 
 ## User-Story
 
